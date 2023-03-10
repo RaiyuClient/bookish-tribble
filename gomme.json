@@ -31,6 +31,21 @@
     "key": 0,
     "properties": {}
   },
+  "Shaders": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Radius": {
+        "value": 4.0
+      },
+      "Multiplier": {
+        "value": 1.0
+      },
+      "Texel size": {
+        "value": 2.0
+      }
+    }
+  },
   "NoSlow": {
     "value": true,
     "key": 0,
@@ -224,11 +239,6 @@
     }
   },
   "AutoLogin": {
-    "value": false,
-    "key": 0,
-    "properties": {}
-  },
-  "OSTracker": {
     "value": false,
     "key": 0,
     "properties": {}
