@@ -380,7 +380,7 @@
     "properties": {}
   },
   "Scaffold": {
-    "value": true,
+    "value": false,
     "key": 45,
     "properties": {
       "Rotation Mode": {
