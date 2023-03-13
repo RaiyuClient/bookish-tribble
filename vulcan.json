@@ -16,7 +16,7 @@
     "key": 0,
     "properties": {
       "Boxy": {
-        "value": false
+        "value": true
       },
       "Projection": {
         "value": false
@@ -28,7 +28,7 @@
   },
   "Breaker": {
     "value": false,
-    "key": 38,
+    "key": 0,
     "properties": {}
   },
   "Shaders": {
@@ -75,7 +75,7 @@
   },
   "InvManager": {
     "value": true,
-    "key": 50,
+    "key": 0,
     "properties": {
       "Click delay": {
         "left": 50.0,
@@ -89,7 +89,7 @@
   },
   "Sprint": {
     "value": true,
-    "key": 37,
+    "key": 0,
     "properties": {}
   },
   "AntiBots": {
@@ -166,7 +166,7 @@
   },
   "LongJump": {
     "value": false,
-    "key": 35,
+    "key": 0,
     "properties": {}
   },
   "MCF": {
@@ -378,7 +378,7 @@
   },
   "Disabler": {
     "value": true,
-    "key": 34,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Vulcan"
@@ -501,7 +501,7 @@
   },
   "NoFall": {
     "value": true,
-    "key": 49,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Vulcan"
