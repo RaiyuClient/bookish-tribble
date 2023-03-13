@@ -16,7 +16,7 @@
     "key": 0,
     "properties": {
       "Boxy": {
-        "value": true
+        "value": false
       },
       "Projection": {
         "value": false
@@ -28,7 +28,7 @@
   },
   "Breaker": {
     "value": false,
-    "key": 0,
+    "key": 38,
     "properties": {}
   },
   "Shaders": {
@@ -42,7 +42,7 @@
         "value": 1.0
       },
       "Texel size": {
-        "value": 1.0
+        "value": 2.0
       }
     }
   },
@@ -75,21 +75,21 @@
   },
   "InvManager": {
     "value": true,
-    "key": 0,
+    "key": 50,
     "properties": {
       "Click delay": {
         "left": 50.0,
         "right": 100.0
       },
       "Open delay": {
-        "left": 250.0,
-        "right": 500.0
+        "left": 100.0,
+        "right": 275.0
       }
     }
   },
   "Sprint": {
     "value": true,
-    "key": 0,
+    "key": 37,
     "properties": {}
   },
   "AntiBots": {
@@ -115,11 +115,11 @@
     "key": 19,
     "properties": {
       "Range": {
-        "value": 3.0
+        "value": 5.300000190734863
       },
       "CPS": {
-        "left": 10.0,
-        "right": 14.0
+        "left": 12.0,
+        "right": 16.0
       },
       "Latest combat delay": {
         "value": false
@@ -137,10 +137,16 @@
         "value": "Single"
       },
       "Priority Mode": {
-        "value": "Distance"
+        "value": "Hurttime"
       },
       "Blocking Mode": {
         "value": "Key Press"
+      },
+      "Rotation speed": {
+        "value": 1.0
+      },
+      "Auto disable": {
+        "value": true
       }
     }
   },
@@ -154,13 +160,13 @@
     "key": 48,
     "properties": {
       "Mode": {
-        "value": "Sparky"
+        "value": "Vulcan"
       }
     }
   },
   "LongJump": {
     "value": false,
-    "key": 0,
+    "key": 35,
     "properties": {}
   },
   "MCF": {
@@ -168,8 +174,18 @@
     "key": 0,
     "properties": {}
   },
-  "Advertisements": {
+  "PingSpoof": {
     "value": false,
+    "key": 0,
+    "properties": {
+      "Ping": {
+        "left": 1800.0,
+        "right": 2100.0
+      }
+    }
+  },
+  "Advertisements": {
+    "value": true,
     "key": 0,
     "properties": {
       "Delay": {
@@ -233,8 +249,14 @@
       "Fill ellipse": {
         "value": false
       },
+      "Color by distance": {
+        "value": false
+      },
       "Show boxes": {
-        "value": true
+        "value": false
+      },
+      "Show names": {
+        "value": false
       }
     }
   },
@@ -274,15 +296,18 @@
     "key": 46,
     "properties": {
       "Click delay": {
-        "left": 50.0,
-        "right": 100.0
+        "left": 0.0,
+        "right": 50.0
       },
       "Open delay": {
-        "left": 250.0,
-        "right": 500.0
+        "left": 50.0,
+        "right": 125.0
       },
       "Pattern mode": {
         "value": "Order"
+      },
+      "Only chests": {
+        "value": true
       },
       "Auto close": {
         "value": true
@@ -352,16 +377,16 @@
     "properties": {}
   },
   "Disabler": {
-    "value": false,
-    "key": 0,
+    "value": true,
+    "key": 34,
     "properties": {
       "Mode": {
-        "value": "Blockdrop"
+        "value": "Vulcan"
       }
     }
   },
   "NoFriends": {
-    "value": false,
+    "value": true,
     "key": 21,
     "properties": {}
   },
@@ -390,13 +415,13 @@
         "value": "Normal"
       },
       "Edge Mode": {
-        "value": "Circular"
+        "value": "Air"
       },
       "Flip at start": {
         "value": true
       },
       "Snap": {
-        "value": true
+        "value": false
       },
       "Reuse rotation": {
         "value": true
@@ -428,14 +453,21 @@
     }
   },
   "Prediction": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {}
   },
   "Step": {
     "value": false,
     "key": 44,
-    "properties": {}
+    "properties": {
+      "Mode": {
+        "value": "Basic"
+      },
+      "Max Height": {
+        "value": 2.0
+      }
+    }
   },
   "WTap": {
     "value": true,
@@ -448,7 +480,7 @@
         "value": "Late"
       },
       "Probability": {
-        "value": 0.5
+        "value": 1.0
       },
       "Increase Probability": {
         "value": false
@@ -459,11 +491,20 @@
     }
   },
   "MoveFix": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Mode": {
         "value": "Silent"
+      }
+    }
+  },
+  "NoFall": {
+    "value": true,
+    "key": 49,
+    "properties": {
+      "Mode": {
+        "value": "Vulcan"
       }
     }
   },
@@ -472,8 +513,8 @@
     "key": 0,
     "properties": {
       "Duration": {
-        "left": 150.0,
-        "right": 200.0
+        "left": 370.0,
+        "right": 540.0
       },
       "Range": {
         "value": 5.0
