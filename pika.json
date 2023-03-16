@@ -1,0 +1,557 @@
+{
+  "FastHeal": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Abuse"
+      },
+      "Additional Packets": {
+        "value": 1.0
+      }
+    }
+  },
+  "ESP": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Boxy": {
+        "value": true
+      },
+      "Box Alpha": {
+        "value": 0.3
+      },
+      "Projection": {
+        "value": false
+      },
+      "Shader": {
+        "value": false
+      }
+    }
+  },
+  "Breaker": {
+    "value": false,
+    "key": 38,
+    "properties": {}
+  },
+  "Shaders": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Radius": {
+        "value": 4.0
+      },
+      "Multiplier": {
+        "value": 1.0
+      },
+      "Texel size": {
+        "value": 2.0
+      }
+    }
+  },
+  "NoSlow": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Block Mode": {
+        "value": "Basic"
+      },
+      "Attack multiplier": {
+        "value": 1.0
+      },
+      "Block multiplier": {
+        "value": 1.0
+      },
+      "Food multiplier": {
+        "value": 1.0
+      },
+      "Sprint while use": {
+        "value": true
+      }
+    }
+  },
+  "AntiVoid": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Platform"
+      }
+    }
+  },
+  "InvManager": {
+    "value": true,
+    "key": 50,
+    "properties": {
+      "Click delay": {
+        "left": 50.0,
+        "right": 100.0
+      },
+      "Open delay": {
+        "left": 100.0,
+        "right": 275.0
+      }
+    }
+  },
+  "Sprint": {
+    "value": true,
+    "key": 37,
+    "properties": {}
+  },
+  "AntiBots": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Move Check": {
+        "value": true
+      }
+    }
+  },
+  "Blink": {
+    "value": false,
+    "key": 47,
+    "properties": {
+      "Mode": {
+        "value": "Intave"
+      }
+    }
+  },
+  "Aura": {
+    "value": false,
+    "key": 19,
+    "properties": {
+      "Range": {
+        "value": 3.0
+      },
+      "CPS": {
+        "left": 12.0,
+        "right": 16.0
+      },
+      "Latest combat delay": {
+        "value": false
+      },
+      "Hurttime hitting": {
+        "value": true
+      },
+      "Only players": {
+        "value": true
+      },
+      "Wait for tickbase": {
+        "value": true
+      },
+      "Attack Mode": {
+        "value": "Single"
+      },
+      "Priority Mode": {
+        "value": "Hurttime"
+      },
+      "Blocking Mode": {
+        "value": "Key Press"
+      },
+      "Rotation speed": {
+        "value": 1.0
+      },
+      "Auto disable": {
+        "value": true
+      }
+    }
+  },
+  "AntiFireball": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Speed": {
+    "value": false,
+    "key": 48,
+    "properties": {
+      "Mode": {
+        "value": "Vulcan"
+      }
+    }
+  },
+  "LongJump": {
+    "value": false,
+    "key": 35,
+    "properties": {}
+  },
+  "MCF": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "PingSpoof": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Ping": {
+        "left": 1800.0,
+        "right": 2100.0
+      }
+    }
+  },
+  "Advertisements": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Delay": {
+        "value": 5.0
+      },
+      "While moving": {
+        "value": true
+      }
+    }
+  },
+  "AutoJoin": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Gxmstxr"
+      }
+    }
+  },
+  "TickBase": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Past"
+      },
+      "Ticks": {
+        "value": 5.0
+      }
+    }
+  },
+  "AntiPotion": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "NoBob": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Sneak": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "NCP"
+      }
+    }
+  },
+  "Pointers": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Radius": {
+        "value": 50.0
+      },
+      "Simulate 3D": {
+        "value": true
+      },
+      "Fill ellipse": {
+        "value": false
+      },
+      "Color by distance": {
+        "value": false
+      },
+      "Show boxes": {
+        "value": false
+      },
+      "Show names": {
+        "value": false
+      }
+    }
+  },
+  "AutoLogin": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "ChestESP": {
+    "value": false,
+    "key": 46,
+    "properties": {
+      "Boxy": {
+        "value": true
+      },
+      "Box Alpha": {
+        "value": 0.3
+      },
+      "Projection": {
+        "value": false
+      },
+      "Shader": {
+        "value": false
+      },
+      "Rumble Box": {
+        "value": false
+      }
+    }
+  },
+  "Teams": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Stealer": {
+    "value": false,
+    "key": 46,
+    "properties": {
+      "Click delay": {
+        "left": 0.0,
+        "right": 50.0
+      },
+      "Open delay": {
+        "left": 50.0,
+        "right": 125.0
+      },
+      "Pattern mode": {
+        "value": "Order"
+      },
+      "Only chests": {
+        "value": true
+      },
+      "Auto close": {
+        "value": true
+      },
+      "Steal tools": {
+        "value": true
+      },
+      "Steal potions": {
+        "value": true
+      },
+      "Chest aura": {
+        "value": false
+      },
+      "Chest switch delay": {
+        "value": 100.0
+      },
+      "Ghost hand": {
+        "value": true
+      }
+    }
+  },
+  "ModuleList": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "NameTags": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "SkinBlink": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "Velocity": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Basic"
+      },
+      "Horizontal percentage": {
+        "value": 1.0
+      },
+      "Vertical percentage": {
+        "value": 1.0
+      },
+      "Probability": {
+        "value": 0.5
+      },
+      "Increase probability": {
+        "value": false
+      },
+      "Reverse offset": {
+        "value": 1.0
+      },
+      "Slowdown percentage": {
+        "value": 0.6
+      }
+    }
+  },
+  "VClip": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Disabler": {
+    "value": false,
+    "key": 34,
+    "properties": {
+      "Mode": {
+        "value": "Cock"
+      }
+    }
+  },
+  "NoFriends": {
+    "value": false,
+    "key": 21,
+    "properties": {}
+  },
+  "Fly": {
+    "value": false,
+    "key": 33,
+    "properties": {
+      "Mode": {
+        "value": "Cock"
+      },
+      "Boosting ticks": {
+        "value": 3.0
+      }
+    }
+  },
+  "ClickGUI": {
+    "value": false,
+    "key": 54,
+    "properties": {}
+  },
+  "Scaffold": {
+    "value": false,
+    "key": 45,
+    "properties": {
+      "Rotation Mode": {
+        "value": "Golden Ratio"
+      },
+      "Bridge Mode": {
+        "value": "Normal"
+      },
+      "Edge Mode": {
+        "value": "Circular"
+      },
+      "Sprint": {
+        "value": false
+      },
+      "Snap": {
+        "value": false
+      },
+      "Flip at start": {
+        "value": true
+      },
+      "Reuse rotation": {
+        "value": true
+      },
+      "Expand": {
+        "value": false
+      },
+      "Tower Mode": {
+        "value": "None"
+      },
+      "Speed Limit": {
+        "value": false
+      },
+      "No swing": {
+        "value": true
+      }
+    }
+  },
+  "ItemAnimation": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Exhibition"
+      },
+      "Force animation": {
+        "value": true
+      }
+    }
+  },
+  "NoRender": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "No hurtcam": {
+        "value": true
+      },
+      "No pumpkin": {
+        "value": true
+      },
+      "No bossbar": {
+        "value": true
+      },
+      "No worldborder": {
+        "value": true
+      }
+    }
+  },
+  "Prediction": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "Step": {
+    "value": false,
+    "key": 44,
+    "properties": {
+      "Mode": {
+        "value": "Basic"
+      },
+      "Max Height": {
+        "value": 2.0
+      }
+    }
+  },
+  "WTap": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Sprint"
+      },
+      "Tap-time Mode": {
+        "value": "Late"
+      },
+      "Probability": {
+        "value": 1.0
+      },
+      "Increase Probability": {
+        "value": false
+      },
+      "Reset on ground": {
+        "value": false
+      }
+    }
+  },
+  "MoveFix": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Silent"
+      }
+    }
+  },
+  "NoFall": {
+    "value": false,
+    "key": 49,
+    "properties": {
+      "Mode": {
+        "value": "Spoof"
+      }
+    }
+  },
+  "Backtrack": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Duration": {
+        "left": 370.0,
+        "right": 540.0
+      },
+      "Range": {
+        "value": 5.0
+      },
+      "Show real position": {
+        "value": true
+      }
+    }
+  }
+}
