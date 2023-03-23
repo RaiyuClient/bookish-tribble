@@ -50,7 +50,7 @@
     }
   },
   "NoSlow": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Block Mode": {
@@ -60,10 +60,10 @@
         "value": 1.0
       },
       "Block multiplier": {
-        "value": 1.0
+        "value": 0.20000000298023224
       },
       "Food multiplier": {
-        "value": 1.0
+        "value": 0.20000000298023224
       },
       "Sprint while use": {
         "value": true
@@ -146,10 +146,13 @@
         "value": "Hurttime"
       },
       "Blocking Mode": {
-        "value": "Key Press"
+        "value": "None"
       },
       "Rotation speed": {
         "value": 1.0
+      },
+      "Schwuchtel klicken": {
+        "value": false
       },
       "Auto disable": {
         "value": true
@@ -185,13 +188,13 @@
     "key": 0,
     "properties": {
       "Ping": {
-        "left": 1800.0,
-        "right": 2100.0
+        "left": 700.0,
+        "right": 850.0
       }
     }
   },
   "Advertisements": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Delay": {
@@ -233,9 +236,18 @@
     "key": 0,
     "properties": {}
   },
-  "Sneak": {
+  "Strafe": {
     "value": false,
     "key": 0,
+    "properties": {
+      "AutoJump": {
+        "value": false
+      }
+    }
+  },
+  "Sneak": {
+    "value": false,
+    "key": 46,
     "properties": {
       "Mode": {
         "value": "NCP"
@@ -306,8 +318,8 @@
         "right": 50.0
       },
       "Open delay": {
-        "left": 50.0,
-        "right": 125.0
+        "left": 25.0,
+        "right": 50.0
       },
       "Pattern mode": {
         "value": "Order"
@@ -352,10 +364,10 @@
   },
   "Velocity": {
     "value": true,
-    "key": 0,
+    "key": 34,
     "properties": {
       "Mode": {
-        "value": "Basic"
+        "value": "Jump"
       },
       "Horizontal percentage": {
         "value": 1.0
@@ -364,7 +376,7 @@
         "value": 1.0
       },
       "Probability": {
-        "value": 0.5
+        "value": 1.0
       },
       "Increase probability": {
         "value": false
@@ -378,13 +390,13 @@
     }
   },
   "VClip": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {}
   },
   "Disabler": {
     "value": false,
-    "key": 34,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Cock"
@@ -392,7 +404,7 @@
     }
   },
   "NoFriends": {
-    "value": false,
+    "value": true,
     "key": 21,
     "properties": {}
   },
@@ -401,10 +413,13 @@
     "key": 33,
     "properties": {
       "Mode": {
-        "value": "Cock"
+        "value": "Grim"
       },
       "Boosting ticks": {
         "value": 3.0
+      },
+      "Allow upwards jump": {
+        "value": true
       }
     }
   },
@@ -417,35 +432,32 @@
     "value": false,
     "key": 45,
     "properties": {
-      "Rotation Mode": {
-        "value": "Golden Ratio"
-      },
       "Bridge Mode": {
         "value": "Normal"
       },
       "Edge Mode": {
-        "value": "Circular"
+        "value": "Air"
+      },
+      "Rotation Mode": {
+        "value": "Block Bounds"
+      },
+      "Tower Mode": {
+        "value": "None"
       },
       "Sprint": {
-        "value": false
-      },
-      "Snap": {
-        "value": false
-      },
-      "Flip at start": {
-        "value": true
-      },
-      "Reuse rotation": {
         "value": true
       },
       "Expand": {
         "value": false
       },
-      "Tower Mode": {
-        "value": "None"
+      "Reuse rotation": {
+        "value": true
       },
-      "Speed Limit": {
-        "value": false
+      "Flip at start": {
+        "value": true
+      },
+      "Snap": {
+        "value": true
       },
       "No swing": {
         "value": true
@@ -521,7 +533,7 @@
     }
   },
   "MoveFix": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Mode": {
@@ -539,15 +551,15 @@
     }
   },
   "Backtrack": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Duration": {
-        "left": 370.0,
-        "right": 540.0
+        "left": 680.0,
+        "right": 860.0
       },
       "Range": {
-        "value": 5.0
+        "value": 5.699999809265137
       },
       "Show real position": {
         "value": true
