@@ -16,7 +16,7 @@
     "key": 0,
     "properties": {
       "Boxy": {
-        "value": true
+        "value": false
       },
       "Box Alpha": {
         "value": 0.3
@@ -25,13 +25,13 @@
         "value": false
       },
       "Shader": {
-        "value": false
+        "value": true
       }
     }
   },
   "Breaker": {
     "value": false,
-    "key": 38,
+    "key": 0,
     "properties": {}
   },
   "Shaders": {
@@ -39,10 +39,10 @@
     "key": 0,
     "properties": {
       "Radius": {
-        "value": 4.0
+        "value": 6.0
       },
       "Multiplier": {
-        "value": 1.0
+        "value": 1.2999999523162842
       },
       "Texel size": {
         "value": 2.0
@@ -50,20 +50,20 @@
     }
   },
   "NoSlow": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Block Mode": {
-        "value": "Basic"
+        "value": "Spoof"
       },
       "Attack multiplier": {
-        "value": 1.0
+        "value": 0.6000000238418579
       },
       "Block multiplier": {
-        "value": 0.20000000298023224
+        "value": 1.0
       },
       "Food multiplier": {
-        "value": 0.20000000298023224
+        "value": 1.0
       },
       "Sprint while use": {
         "value": true
@@ -121,13 +121,16 @@
     "key": 19,
     "properties": {
       "Range": {
-        "value": 3.0
+        "value": 3.799999952316284
       },
       "CPS": {
-        "left": 12.0,
-        "right": 16.0
+        "left": 13.0,
+        "right": 17.0
       },
-      "Latest combat delay": {
+      "Clicking Mode": {
+        "value": "Basic"
+      },
+      "Randomize interval": {
         "value": false
       },
       "Hurttime hitting": {
@@ -140,19 +143,16 @@
         "value": true
       },
       "Attack Mode": {
-        "value": "Single"
+        "value": "Switch"
       },
       "Priority Mode": {
-        "value": "Hurttime"
+        "value": "None"
       },
       "Blocking Mode": {
-        "value": "None"
+        "value": "Key Press"
       },
       "Rotation speed": {
         "value": 1.0
-      },
-      "Schwuchtel klicken": {
-        "value": false
       },
       "Auto disable": {
         "value": true
@@ -188,8 +188,8 @@
     "key": 0,
     "properties": {
       "Ping": {
-        "left": 700.0,
-        "right": 850.0
+        "left": 250.0,
+        "right": 450.0
       }
     }
   },
@@ -232,7 +232,7 @@
     "properties": {}
   },
   "NoBob": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {}
   },
@@ -247,7 +247,7 @@
   },
   "Sneak": {
     "value": false,
-    "key": 46,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "NCP"
@@ -288,7 +288,7 @@
     "key": 46,
     "properties": {
       "Boxy": {
-        "value": true
+        "value": false
       },
       "Box Alpha": {
         "value": 0.3
@@ -297,7 +297,7 @@
         "value": false
       },
       "Shader": {
-        "value": false
+        "value": true
       },
       "Rumble Box": {
         "value": false
@@ -364,7 +364,7 @@
   },
   "Velocity": {
     "value": true,
-    "key": 34,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Jump"
@@ -439,7 +439,7 @@
         "value": "Air"
       },
       "Rotation Mode": {
-        "value": "Block Bounds"
+        "value": "Normal"
       },
       "Tower Mode": {
         "value": "None"
@@ -469,7 +469,7 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Exhibition"
+        "value": "Old"
       },
       "Force animation": {
         "value": true
@@ -560,6 +560,12 @@
       },
       "Range": {
         "value": 5.699999809265137
+      },
+      "Only out of range": {
+        "value": true
+      },
+      "Attack range": {
+        "value": 2.0
       },
       "Show real position": {
         "value": true

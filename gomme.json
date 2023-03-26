@@ -16,30 +16,33 @@
     "key": 0,
     "properties": {
       "Boxy": {
-        "value": true
+        "value": false
+      },
+      "Box Alpha": {
+        "value": 0.3
       },
       "Projection": {
         "value": false
       },
       "Shader": {
-        "value": false
+        "value": true
       }
     }
   },
   "Breaker": {
     "value": false,
-    "key": 38,
+    "key": 0,
     "properties": {}
   },
   "Shaders": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Radius": {
-        "value": 4.0
+        "value": 6.0
       },
       "Multiplier": {
-        "value": 1.0
+        "value": 1.2999999523162842
       },
       "Texel size": {
         "value": 2.0
@@ -61,6 +64,9 @@
       },
       "Food multiplier": {
         "value": 0.20000000298023224
+      },
+      "Sprint while use": {
+        "value": true
       }
     }
   },
@@ -111,18 +117,21 @@
     }
   },
   "Aura": {
-    "value": false,
+    "value": true,
     "key": 19,
     "properties": {
       "Range": {
         "value": 3.0
       },
       "CPS": {
-        "left": 13.0,
-        "right": 16.0
+        "left": 15.0,
+        "right": 18.0
       },
-      "Latest combat delay": {
-        "value": false
+      "Clicking Mode": {
+        "value": "Schwuchtel+"
+      },
+      "Randomize interval": {
+        "value": true
       },
       "Hurttime hitting": {
         "value": true
@@ -137,13 +146,13 @@
         "value": "Single"
       },
       "Priority Mode": {
-        "value": "Hurttime"
+        "value": "None"
       },
       "Blocking Mode": {
         "value": "None"
       },
       "Rotation speed": {
-        "value": 0.25
+        "value": 0.699999988079071
       },
       "Auto disable": {
         "value": true
@@ -206,7 +215,7 @@
     }
   },
   "TickBase": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Mode": {
@@ -226,6 +235,15 @@
     "value": true,
     "key": 0,
     "properties": {}
+  },
+  "Strafe": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "AutoJump": {
+        "value": false
+      }
+    }
   },
   "Sneak": {
     "value": false,
@@ -345,11 +363,11 @@
     "properties": {}
   },
   "Velocity": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Jump"
+        "value": "Test"
       },
       "Horizontal percentage": {
         "value": 1.0
@@ -378,15 +396,15 @@
   },
   "Disabler": {
     "value": false,
-    "key": 34,
+    "key": 0,
     "properties": {
       "Mode": {
-        "value": "Blockdrop"
+        "value": "Cock"
       }
     }
   },
   "NoFriends": {
-    "value": false,
+    "value": true,
     "key": 21,
     "properties": {}
   },
@@ -396,6 +414,12 @@
     "properties": {
       "Mode": {
         "value": "Vanilla"
+      },
+      "Boosting ticks": {
+        "value": 3.0
+      },
+      "Allow upwards jump": {
+        "value": true
       }
     }
   },
@@ -408,31 +432,31 @@
     "value": false,
     "key": 45,
     "properties": {
-      "Rotation Mode": {
-        "value": "Golden Ratio"
-      },
       "Bridge Mode": {
         "value": "Normal"
       },
       "Edge Mode": {
         "value": "Rectangular"
       },
-      "Flip at start": {
-        "value": true
+      "Rotation Mode": {
+        "value": "Golden Ratio"
       },
-      "Snap": {
+      "Tower Mode": {
+        "value": "None"
+      },
+      "Sprint": {
+        "value": false
+      },
+      "Expand": {
         "value": false
       },
       "Reuse rotation": {
         "value": true
       },
-      "Expand": {
-        "value": false
+      "Flip at start": {
+        "value": true
       },
-      "Tower Mode": {
-        "value": "None"
-      },
-      "Speed Limit": {
+      "Snap": {
         "value": false
       },
       "No swing": {
@@ -448,6 +472,24 @@
         "value": "Old"
       },
       "Force animation": {
+        "value": true
+      }
+    }
+  },
+  "NoRender": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "No hurtcam": {
+        "value": true
+      },
+      "No pumpkin": {
+        "value": true
+      },
+      "No bossbar": {
+        "value": true
+      },
+      "No worldborder": {
         "value": true
       }
     }
@@ -474,7 +516,7 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Forward"
+        "value": "Sprint"
       },
       "Tap-time Mode": {
         "value": "Late"
@@ -509,15 +551,24 @@
     }
   },
   "Backtrack": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Duration": {
-        "left": 150.0,
-        "right": 220.0
+        "left": 170.0,
+        "right": 250.0
       },
       "Range": {
-        "value": 5.199999809265137
+        "value": 5.5
+      },
+      "Only out of range": {
+        "value": true
+      },
+      "Attack range": {
+        "value": 2.0
+      },
+      "Show real position": {
+        "value": true
       }
     }
   }
