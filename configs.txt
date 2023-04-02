@@ -1,1 +1,6 @@
 cheatmine
+gomme
+grim
+pika
+pikahaze
+vulcan
