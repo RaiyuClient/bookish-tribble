@@ -1,6 +1,7 @@
 CheatMine
 Gomme
 Grim
+Hypixel
 Pika
 PikaHaze
 Vulcan
