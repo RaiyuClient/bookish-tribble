@@ -31,18 +31,266 @@
   },
   "Breaker": {
     "value": false,
+    "key": 38,
+    "properties": {}
+  },
+  "Reach": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Reach": {
+        "value": 3.0
+      }
+    }
+  },
+  "InvManager": {
+    "value": true,
+    "key": 50,
+    "properties": {
+      "Click delay": {
+        "left": 0.0,
+        "right": 25.0
+      },
+      "Open delay": {
+        "left": 0.0,
+        "right": 25.0
+      },
+      "Sort inventory": {
+        "value": true
+      },
+      "Prefer swords": {
+        "value": true
+      }
+    }
+  },
+  "Sprint": {
+    "value": true,
+    "key": 37,
+    "properties": {}
+  },
+  "STest": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Bridge Mode": {
+        "value": "Sneak"
+      },
+      "Sneak Interval": {
+        "value": 1.0
+      }
+    }
+  },
+  "MCF": {
+    "value": true,
     "key": 0,
     "properties": {}
+  },
+  "AutoJoin": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Gxmstxr"
+      }
+    }
+  },
+  "TickBase": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Past"
+      },
+      "Ticks": {
+        "value": 5.0
+      }
+    }
+  },
+  "NoBob": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "InvMove": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Sneak": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "NCP"
+      }
+    }
+  },
+  "Pointers": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Radius": {
+        "value": 50.0
+      },
+      "Simulate 3D": {
+        "value": true
+      },
+      "Fill ellipse": {
+        "value": false
+      },
+      "Color by distance": {
+        "value": true
+      },
+      "Show boxes": {
+        "value": false
+      },
+      "Show names": {
+        "value": true
+      }
+    }
+  },
+  "AutoLogin": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Join delay": {
+        "value": 1000.0
+      },
+      "Delay": {
+        "value": 500.0
+      }
+    }
+  },
+  "Test": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Range": {
+        "value": 3.0
+      },
+      "Mean": {
+        "value": 70.0
+      },
+      "Deviation": {
+        "value": 30.0
+      },
+      "Only Player": {
+        "value": true
+      },
+      "Invisibles": {
+        "value": false
+      }
+    }
+  },
+  "Teams": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Stealer": {
+    "value": false,
+    "key": 46,
+    "properties": {
+      "Click delay": {
+        "left": 0.0,
+        "right": 25.0
+      },
+      "Open delay": {
+        "left": 0.0,
+        "right": 25.0
+      },
+      "Pattern mode": {
+        "value": "Order"
+      },
+      "Only chests": {
+        "value": true
+      },
+      "Auto close": {
+        "value": true
+      },
+      "Steal tools": {
+        "value": true
+      },
+      "Steal potions": {
+        "value": true
+      },
+      "Chest aura": {
+        "value": true
+      },
+      "Chest switch delay": {
+        "value": 400.0
+      },
+      "Ghost hand": {
+        "value": true
+      },
+      "Auto disable": {
+        "value": false
+      }
+    }
+  },
+  "ModuleList": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Disabler": {
+    "value": false,
+    "key": 34,
+    "properties": {
+      "Mode": {
+        "value": "Cock"
+      }
+    }
+  },
+  "ClickGUI": {
+    "value": false,
+    "key": 54,
+    "properties": {}
+  },
+  "ItemAnimation": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Exhibition"
+      },
+      "Force animation": {
+        "value": true
+      }
+    }
+  },
+  "Prediction": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "MoveFix": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Silent"
+      }
+    }
+  },
+  "NoFall": {
+    "value": false,
+    "key": 49,
+    "properties": {
+      "Mode": {
+        "value": "NoGround"
+      }
+    }
   },
   "Shaders": {
     "value": true,
     "key": 0,
     "properties": {
       "Radius": {
-        "value": 6.0
+        "value": 8.0
       },
       "Multiplier": {
-        "value": 1.2999999523162842
+        "value": 2.0
       },
       "Texel size": {
         "value": 2.0
@@ -79,25 +327,6 @@
       }
     }
   },
-  "InvManager": {
-    "value": true,
-    "key": 50,
-    "properties": {
-      "Click delay": {
-        "left": 50.0,
-        "right": 100.0
-      },
-      "Open delay": {
-        "left": 100.0,
-        "right": 275.0
-      }
-    }
-  },
-  "Sprint": {
-    "value": true,
-    "key": 37,
-    "properties": {}
-  },
   "AntiBots": {
     "value": false,
     "key": 0,
@@ -121,17 +350,23 @@
     "key": 19,
     "properties": {
       "Range": {
-        "value": 3.799999952316284
+        "value": 5.0
       },
       "CPS": {
         "left": 13.0,
         "right": 17.0
       },
       "Clicking Mode": {
-        "value": "Basic"
+        "value": "Schwuchtel+"
       },
       "Randomize interval": {
         "value": false
+      },
+      "Perfect hit": {
+        "value": true
+      },
+      "Perfect hit chance": {
+        "value": 0.75
       },
       "Hurttime hitting": {
         "value": true
@@ -162,7 +397,14 @@
   "AntiFireball": {
     "value": true,
     "key": 0,
-    "properties": {}
+    "properties": {
+      "Range": {
+        "value": 6.0
+      },
+      "Shoot upwards": {
+        "value": false
+      }
+    }
   },
   "Speed": {
     "value": false,
@@ -178,11 +420,6 @@
     "key": 35,
     "properties": {}
   },
-  "MCF": {
-    "value": true,
-    "key": 0,
-    "properties": {}
-  },
   "PingSpoof": {
     "value": false,
     "key": 0,
@@ -194,7 +431,7 @@
     }
   },
   "Advertisements": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Delay": {
@@ -205,34 +442,8 @@
       }
     }
   },
-  "AutoJoin": {
-    "value": true,
-    "key": 0,
-    "properties": {
-      "Mode": {
-        "value": "Gxmstxr"
-      }
-    }
-  },
-  "TickBase": {
-    "value": false,
-    "key": 0,
-    "properties": {
-      "Mode": {
-        "value": "Past"
-      },
-      "Ticks": {
-        "value": 5.0
-      }
-    }
-  },
   "AntiPotion": {
     "value": true,
-    "key": 0,
-    "properties": {}
-  },
-  "NoBob": {
-    "value": false,
     "key": 0,
     "properties": {}
   },
@@ -244,44 +455,6 @@
         "value": false
       }
     }
-  },
-  "Sneak": {
-    "value": false,
-    "key": 0,
-    "properties": {
-      "Mode": {
-        "value": "NCP"
-      }
-    }
-  },
-  "Pointers": {
-    "value": false,
-    "key": 0,
-    "properties": {
-      "Radius": {
-        "value": 50.0
-      },
-      "Simulate 3D": {
-        "value": true
-      },
-      "Fill ellipse": {
-        "value": false
-      },
-      "Color by distance": {
-        "value": false
-      },
-      "Show boxes": {
-        "value": false
-      },
-      "Show names": {
-        "value": false
-      }
-    }
-  },
-  "AutoLogin": {
-    "value": true,
-    "key": 0,
-    "properties": {}
   },
   "ChestESP": {
     "value": false,
@@ -304,54 +477,6 @@
       }
     }
   },
-  "Teams": {
-    "value": true,
-    "key": 0,
-    "properties": {}
-  },
-  "Stealer": {
-    "value": false,
-    "key": 46,
-    "properties": {
-      "Click delay": {
-        "left": 0.0,
-        "right": 50.0
-      },
-      "Open delay": {
-        "left": 25.0,
-        "right": 50.0
-      },
-      "Pattern mode": {
-        "value": "Order"
-      },
-      "Only chests": {
-        "value": true
-      },
-      "Auto close": {
-        "value": true
-      },
-      "Steal tools": {
-        "value": true
-      },
-      "Steal potions": {
-        "value": true
-      },
-      "Chest aura": {
-        "value": false
-      },
-      "Chest switch delay": {
-        "value": 100.0
-      },
-      "Ghost hand": {
-        "value": true
-      }
-    }
-  },
-  "ModuleList": {
-    "value": true,
-    "key": 0,
-    "properties": {}
-  },
   "NameTags": {
     "value": true,
     "key": 0,
@@ -367,7 +492,7 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Jump"
+        "value": "Grim2"
       },
       "Horizontal percentage": {
         "value": 1.0
@@ -394,19 +519,14 @@
     "key": 0,
     "properties": {}
   },
-  "Disabler": {
+  "NoFriends": {
     "value": false,
-    "key": 0,
+    "key": 21,
     "properties": {
-      "Mode": {
-        "value": "Cock"
+      "Auto disable": {
+        "value": false
       }
     }
-  },
-  "NoFriends": {
-    "value": true,
-    "key": 21,
-    "properties": {}
   },
   "Fly": {
     "value": false,
@@ -422,11 +542,6 @@
         "value": true
       }
     }
-  },
-  "ClickGUI": {
-    "value": false,
-    "key": 54,
-    "properties": {}
   },
   "Scaffold": {
     "value": false,
@@ -461,17 +576,11 @@
       },
       "No swing": {
         "value": true
-      }
-    }
-  },
-  "ItemAnimation": {
-    "value": true,
-    "key": 0,
-    "properties": {
-      "Mode": {
-        "value": "Old"
       },
-      "Force animation": {
+      "Auto stop": {
+        "value": true
+      },
+      "Auto disable": {
         "value": true
       }
     }
@@ -494,17 +603,12 @@
       }
     }
   },
-  "Prediction": {
-    "value": false,
-    "key": 0,
-    "properties": {}
-  },
   "Step": {
     "value": false,
     "key": 44,
     "properties": {
       "Mode": {
-        "value": "Basic"
+        "value": "Intave (1.5)"
       },
       "Max Height": {
         "value": 2.0
@@ -532,24 +636,6 @@
       }
     }
   },
-  "MoveFix": {
-    "value": true,
-    "key": 0,
-    "properties": {
-      "Mode": {
-        "value": "Silent"
-      }
-    }
-  },
-  "NoFall": {
-    "value": false,
-    "key": 49,
-    "properties": {
-      "Mode": {
-        "value": "Spoof"
-      }
-    }
-  },
   "Backtrack": {
     "value": true,
     "key": 0,
@@ -559,7 +645,7 @@
         "right": 860.0
       },
       "Range": {
-        "value": 5.699999809265137
+        "value": 6.0
       },
       "Only out of range": {
         "value": true
