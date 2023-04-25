@@ -21,9 +21,6 @@
       "Box Alpha": {
         "value": 0.3
       },
-      "Easter Egg": {
-        "value": false
-      },
       "Projection": {
         "value": false
       },
@@ -48,7 +45,7 @@
   },
   "InvManager": {
     "value": true,
-    "key": 50,
+    "key": 0,
     "properties": {
       "Click delay": {
         "left": 150.0,
@@ -63,12 +60,15 @@
       },
       "Prefer swords": {
         "value": true
+      },
+      "Blocks in hotbar": {
+        "value": true
       }
     }
   },
   "Sprint": {
     "value": true,
-    "key": 37,
+    "key": 0,
     "properties": {}
   },
   "STest": {
@@ -97,6 +97,15 @@
       }
     }
   },
+  "Fullbright": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Gamma"
+      }
+    }
+  },
   "TickBase": {
     "value": true,
     "key": 0,
@@ -106,10 +115,25 @@
       },
       "Ticks": {
         "value": 4.0
+      },
+      "Delay": {
+        "value": 1000.0
+      },
+      "Randomization": {
+        "value": true
+      },
+      "Random amount": {
+        "left": -25.0,
+        "right": 25.0
       }
     }
   },
   "NoBob": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "InvMove": {
     "value": true,
     "key": 0,
     "properties": {}
@@ -220,6 +244,9 @@
       },
       "Ghost hand": {
         "value": false
+      },
+      "Auto disable": {
+        "value": false
       }
     }
   },
@@ -270,7 +297,7 @@
   },
   "NoFall": {
     "value": false,
-    "key": 49,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Vulcan"
@@ -361,7 +388,7 @@
         "value": true
       },
       "Perfect hit chance": {
-        "value": 0.75
+        "value": 1.0
       },
       "Hurttime hitting": {
         "value": true
@@ -370,7 +397,7 @@
         "value": true
       },
       "Wait for tickbase": {
-        "value": true
+        "value": false
       },
       "Attack Mode": {
         "value": "Single"
@@ -403,7 +430,7 @@
   },
   "Speed": {
     "value": false,
-    "key": 48,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Sparky"
@@ -412,7 +439,7 @@
   },
   "LongJump": {
     "value": false,
-    "key": 35,
+    "key": 0,
     "properties": {}
   },
   "PingSpoof": {
@@ -516,12 +543,16 @@
   },
   "NoFriends": {
     "value": false,
-    "key": 21,
-    "properties": {}
+    "key": 0,
+    "properties": {
+      "Auto disable": {
+        "value": false
+      }
+    }
   },
   "Fly": {
     "value": false,
-    "key": 33,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Vanilla"
@@ -570,6 +601,9 @@
       },
       "Auto stop": {
         "value": true
+      },
+      "Auto disable": {
+        "value": true
       }
     }
   },
@@ -587,6 +621,9 @@
         "value": true
       },
       "No worldborder": {
+        "value": true
+      },
+      "Low fire": {
         "value": true
       }
     }
@@ -611,10 +648,10 @@
         "value": "Sprint"
       },
       "Tap-time Mode": {
-        "value": "Late"
+        "value": "Early"
       },
       "Probability": {
-        "value": 0.800000011920929
+        "value": 0.8999999761581421
       },
       "Increase Probability": {
         "value": true
@@ -625,7 +662,7 @@
     }
   },
   "Backtrack": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Duration": {
@@ -635,14 +672,14 @@
       "Range": {
         "value": 5.199999809265137
       },
+      "Prevent health updates": {
+        "value": true
+      },
       "Only out of range": {
         "value": true
       },
       "Attack range": {
         "value": 2.0
-      },
-      "Show real position": {
-        "value": true
       }
     }
   }
