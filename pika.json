@@ -31,7 +31,7 @@
   },
   "Breaker": {
     "value": false,
-    "key": 38,
+    "key": 0,
     "properties": {}
   },
   "Reach": {
@@ -45,7 +45,7 @@
   },
   "InvManager": {
     "value": true,
-    "key": 50,
+    "key": 0,
     "properties": {
       "Click delay": {
         "left": 0.0,
@@ -60,12 +60,15 @@
       },
       "Prefer swords": {
         "value": true
+      },
+      "Blocks in hotbar": {
+        "value": true
       }
     }
   },
   "Sprint": {
     "value": true,
-    "key": 37,
+    "key": 0,
     "properties": {}
   },
   "STest": {
@@ -94,6 +97,15 @@
       }
     }
   },
+  "Fullbright": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Gamma"
+      }
+    }
+  },
   "TickBase": {
     "value": false,
     "key": 0,
@@ -103,11 +115,21 @@
       },
       "Ticks": {
         "value": 5.0
+      },
+      "Delay": {
+        "value": 1000.0
+      },
+      "Randomization": {
+        "value": true
+      },
+      "Random amount": {
+        "left": -25.0,
+        "right": 25.0
       }
     }
   },
   "NoBob": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {}
   },
@@ -235,7 +257,7 @@
   },
   "Disabler": {
     "value": false,
-    "key": 34,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Cock"
@@ -256,6 +278,9 @@
       },
       "Force animation": {
         "value": true
+      },
+      "Swing speed": {
+        "value": 1.0
       }
     }
   },
@@ -275,7 +300,7 @@
   },
   "NoFall": {
     "value": false,
-    "key": 49,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "NoGround"
@@ -310,7 +335,16 @@
       "Block multiplier": {
         "value": 1.0
       },
-      "Food multiplier": {
+      "Bow slowdown": {
+        "value": true
+      },
+      "Bow multiplier": {
+        "value": 1.0
+      },
+      "Consume slowdown": {
+        "value": true
+      },
+      "Consume multiplier": {
         "value": 1.0
       },
       "Sprint while use": {
@@ -408,7 +442,7 @@
   },
   "Speed": {
     "value": false,
-    "key": 48,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Vulcan"
@@ -417,7 +451,7 @@
   },
   "LongJump": {
     "value": false,
-    "key": 35,
+    "key": 0,
     "properties": {}
   },
   "PingSpoof": {
@@ -431,7 +465,7 @@
     }
   },
   "Advertisements": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Delay": {
@@ -474,6 +508,15 @@
       },
       "Rumble Box": {
         "value": false
+      }
+    }
+  },
+  "FastUse": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Grim (Flag)"
       }
     }
   },
@@ -521,7 +564,7 @@
   },
   "NoFriends": {
     "value": false,
-    "key": 21,
+    "key": 0,
     "properties": {
       "Auto disable": {
         "value": false
@@ -600,12 +643,27 @@
       },
       "No worldborder": {
         "value": true
+      },
+      "Low fire": {
+        "value": true
+      }
+    }
+  },
+  "FastPlace": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Delay": {
+        "value": 0.0
+      },
+      "Randomize": {
+        "value": false
       }
     }
   },
   "Step": {
     "value": false,
-    "key": 44,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Intave (1.5)"
@@ -647,14 +705,14 @@
       "Range": {
         "value": 6.0
       },
+      "Prevent health updates": {
+        "value": true
+      },
       "Only out of range": {
         "value": true
       },
       "Attack range": {
         "value": 2.0
-      },
-      "Show real position": {
-        "value": true
       }
     }
   }
