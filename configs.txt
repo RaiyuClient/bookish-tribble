@@ -1,5 +1,6 @@
 CheatMine
 CoralMC
+Gamster
 Gomme
 Grim
 Hypixel
