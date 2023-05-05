@@ -5,4 +5,5 @@ Gomme
 Grim
 Hypixel
 Pika
+Sparky
 Vulcan
