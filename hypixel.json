@@ -52,8 +52,8 @@
         "right": 200.0
       },
       "Open delay": {
-        "left": 100.0,
-        "right": 275.0
+        "left": 150.0,
+        "right": 250.0
       },
       "Sort inventory": {
         "value": true
@@ -69,7 +69,11 @@
   "Sprint": {
     "value": true,
     "key": 37,
-    "properties": {}
+    "properties": {
+      "Keep sprint": {
+        "value": false
+      }
+    }
   },
   "STest": {
     "value": false,
@@ -93,7 +97,7 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Gxmstxr"
+        "value": "Hypixel"
       }
     }
   },
@@ -139,6 +143,9 @@
     "properties": {
       "Prevent Packets": {
         "value": false
+      },
+      "Only Click GUI": {
+        "value": false
       }
     }
   },
@@ -176,7 +183,7 @@
     }
   },
   "AutoLogin": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Join delay": {
@@ -219,7 +226,7 @@
     "properties": {
       "Click delay": {
         "left": 125.0,
-        "right": 225.0
+        "right": 200.0
       },
       "Open delay": {
         "left": 150.0,
@@ -251,6 +258,9 @@
       },
       "Auto disable": {
         "value": false
+      },
+      "Disable chest ESP": {
+        "value": false
       }
     }
   },
@@ -272,6 +282,19 @@
     "value": false,
     "key": 54,
     "properties": {}
+  },
+  "Ambience": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Noon"
+      },
+      "Time cyle": {
+        "left": 6000.0,
+        "right": 16000.0
+      }
+    }
   },
   "ItemAnimation": {
     "value": true,
@@ -415,6 +438,9 @@
       "Wait for tickbase": {
         "value": true
       },
+      "Wait for blink": {
+        "value": true
+      },
       "Attack Mode": {
         "value": "Single"
       },
@@ -491,6 +517,9 @@
     "properties": {
       "AutoJump": {
         "value": false
+      },
+      "Idle on damage": {
+        "value": false
       }
     }
   },
@@ -539,10 +568,10 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Watchdog"
+        "value": "Percentage"
       },
       "Horizontal percentage": {
-        "value": 0.4000000059604645
+        "value": 0.20000000298023224
       },
       "Vertical percentage": {
         "value": 1.0
@@ -570,7 +599,7 @@
     "properties": {}
   },
   "NoFriends": {
-    "value": false,
+    "value": true,
     "key": 21,
     "properties": {
       "Auto disable": {
