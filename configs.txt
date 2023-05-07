@@ -4,6 +4,8 @@ Gamster
 Gomme
 Grim
 Hypixel
+Jartex
 Pika
+PikaBW
 Sparky
 Vulcan
