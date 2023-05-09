@@ -334,6 +334,11 @@
       }
     }
   },
+  "ClientCapes": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
   "Shaders": {
     "value": true,
     "key": 0,
@@ -350,7 +355,7 @@
     }
   },
   "NoSlow": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Block Mode": {
@@ -387,6 +392,11 @@
         "value": "Platform"
       }
     }
+  },
+  "NoJumpDelay": {
+    "value": true,
+    "key": 0,
+    "properties": {}
   },
   "AntiBots": {
     "value": true,
@@ -447,8 +457,11 @@
       "Priority Mode": {
         "value": "Health"
       },
+      "FOV angle": {
+        "value": 180.0
+      },
       "Blocking Mode": {
-        "value": "Key Press"
+        "value": "None"
       },
       "Rotation speed": {
         "value": 0.8500000238418579
@@ -556,7 +569,20 @@
   "NameTags": {
     "value": true,
     "key": 0,
-    "properties": {}
+    "properties": {
+      "Health": {
+        "value": true
+      },
+      "Show Client": {
+        "value": true
+      },
+      "Show Branch": {
+        "value": true
+      },
+      "Show IRC Name": {
+        "value": true
+      }
+    }
   },
   "SkinBlink": {
     "value": false,
@@ -571,13 +597,13 @@
         "value": "Percentage"
       },
       "Horizontal percentage": {
-        "value": 0.20000000298023224
+        "value": 0.0
       },
       "Vertical percentage": {
         "value": 1.0
       },
       "Invert horizontal": {
-        "value": true
+        "value": false
       },
       "Probability": {
         "value": 1.0
@@ -636,12 +662,15 @@
         "value": "Golden Ratio"
       },
       "Tower Mode": {
-        "value": "Gravity"
+        "value": "None"
       },
       "Sprint": {
         "value": false
       },
       "Expand": {
+        "value": false
+      },
+      "Same Y": {
         "value": false
       },
       "Reuse rotation": {
@@ -697,6 +726,9 @@
       },
       "Randomize": {
         "value": false
+      },
+      "Only blocks": {
+        "value": true
       }
     }
   },
