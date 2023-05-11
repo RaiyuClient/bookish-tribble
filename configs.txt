@@ -4,6 +4,7 @@ Gamster
 Gomme
 Grim
 Hypixel
+Pika
 Sparky
 Twerion
 Vulcan
