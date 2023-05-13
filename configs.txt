@@ -5,6 +5,7 @@ Gomme
 Grim
 Hypixel
 Hypixelsafe
+HypixelRage
 Pika
 Sparky
 Twerion
