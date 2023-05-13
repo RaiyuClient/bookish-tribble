@@ -365,7 +365,7 @@
         "value": 1.0
       },
       "Block multiplier": {
-        "value": 1.0
+        "value": 0.9000000357627869
       },
       "Bow slowdown": {
         "value": false
@@ -730,10 +730,10 @@
     "key": 0,
     "properties": {
       "Delay": {
-        "value": 0.0
+        "value": 3.0
       },
       "Randomize": {
-        "value": false
+        "value": true
       },
       "Only blocks": {
         "value": true
