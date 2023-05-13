@@ -4,6 +4,7 @@ Gamster
 Gomme
 Grim
 Hypixel
+Hypixelsafe
 Pika
 Sparky
 Twerion
