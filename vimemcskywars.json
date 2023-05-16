@@ -221,7 +221,7 @@
     "properties": {}
   },
   "Stealer": {
-    "value": true,
+    "value": false,
     "key": 47,
     "properties": {
       "Click delay": {
@@ -542,7 +542,7 @@
     }
   },
   "ChestESP": {
-    "value": true,
+    "value": false,
     "key": 47,
     "properties": {
       "Boxy": {
