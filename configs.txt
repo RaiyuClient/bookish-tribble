@@ -11,3 +11,4 @@ Sparky
 Twerion
 VimeMCSkywars
 Vulcan
+ZoneCraft
