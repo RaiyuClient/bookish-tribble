@@ -9,5 +9,5 @@ HypixelRage
 Pika
 Sparky
 Twerion
-VimeMC
+VimeMCSkywars
 Vulcan
