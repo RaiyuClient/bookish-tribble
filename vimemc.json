@@ -44,7 +44,7 @@
     }
   },
   "InvManager": {
-    "value": false,
+    "value": true,
     "key": 21,
     "properties": {
       "Click delay": {
@@ -221,7 +221,7 @@
     "properties": {}
   },
   "Stealer": {
-    "value": false,
+    "value": true,
     "key": 21,
     "properties": {
       "Click delay": {
@@ -297,7 +297,7 @@
     }
   },
   "ItemAnimation": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Mode": {
@@ -355,11 +355,11 @@
     }
   },
   "NoSlow": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Block Mode": {
-        "value": "Spoof2"
+        "value": "Spoof"
       },
       "Attack multiplier": {
         "value": 1.0
@@ -368,10 +368,10 @@
         "value": 1.0
       },
       "Bow slowdown": {
-        "value": true
+        "value": false
       },
       "Bow multiplier": {
-        "value": 1.0
+        "value": 0.20000000298023224
       },
       "Consume slowdown": {
         "value": true
@@ -422,15 +422,15 @@
     }
   },
   "Aura": {
-    "value": false,
+    "value": true,
     "key": 19,
     "properties": {
       "Range": {
         "value": 3.0
       },
       "CPS": {
-        "left": 25.0,
-        "right": 35.0
+        "left": 15.0,
+        "right": 19.0
       },
       "Clicking Mode": {
         "value": "Basic"
@@ -439,13 +439,13 @@
         "value": false
       },
       "Perfect hit": {
-        "value": false
+        "value": true
       },
       "Perfect hit chance": {
         "value": 1.0
       },
       "Hurttime hitting": {
-        "value": false
+        "value": true
       },
       "Only players": {
         "value": true
@@ -457,19 +457,19 @@
         "value": false
       },
       "Attack Mode": {
-        "value": "Single"
+        "value": "Switch"
       },
       "Priority Mode": {
-        "value": "Keep"
+        "value": "Health"
       },
       "FOV angle": {
         "value": 180.0
       },
       "Blocking Mode": {
-        "value": "None"
+        "value": "Key Press"
       },
       "Rotation speed": {
-        "value": 1.0
+        "value": 0.699999988079071
       },
       "Auto disable": {
         "value": true
@@ -602,7 +602,7 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Jump"
+        "value": "Grim88"
       },
       "Horizontal percentage": {
         "value": 1.0
