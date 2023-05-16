@@ -183,7 +183,7 @@
     }
   },
   "AutoLogin": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Join delay": {
@@ -248,13 +248,13 @@
         "value": true
       },
       "Chest aura": {
-        "value": false
+        "value": true
       },
       "Chest switch delay": {
-        "value": 375.0
+        "value": 125.0
       },
       "Ghost hand": {
-        "value": false
+        "value": true
       },
       "Auto disable": {
         "value": false
@@ -288,7 +288,7 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Noon"
+        "value": "Night"
       },
       "Time cyle": {
         "left": 6000.0,
@@ -778,14 +778,14 @@
     "key": 0,
     "properties": {
       "Duration": {
-        "left": 300.0,
-        "right": 360.0
+        "left": 330.0,
+        "right": 480.0
       },
       "Range": {
-        "value": 5.0
+        "value": 5.199999809265137
       },
       "Prevent health updates": {
-        "value": false
+        "value": true
       },
       "Only out of range": {
         "value": false
