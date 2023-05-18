@@ -31,7 +31,7 @@
   },
   "Breaker": {
     "value": false,
-    "key": 44,
+    "key": 38,
     "properties": {}
   },
   "Reach": {
@@ -45,7 +45,7 @@
   },
   "InvManager": {
     "value": true,
-    "key": 36,
+    "key": 50,
     "properties": {
       "Click delay": {
         "left": 125.0,
@@ -68,7 +68,7 @@
   },
   "Sprint": {
     "value": true,
-    "key": 0,
+    "key": 37,
     "properties": {
       "Keep sprint": {
         "value": false
@@ -112,7 +112,7 @@
   },
   "TickBase": {
     "value": false,
-    "key": 21,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Past"
@@ -160,7 +160,7 @@
   },
   "Pointers": {
     "value": false,
-    "key": 35,
+    "key": 0,
     "properties": {
       "Radius": {
         "value": 50.0
@@ -222,7 +222,7 @@
   },
   "Stealer": {
     "value": false,
-    "key": 47,
+    "key": 46,
     "properties": {
       "Click delay": {
         "left": 125.0,
@@ -271,7 +271,7 @@
   },
   "Disabler": {
     "value": false,
-    "key": 0,
+    "key": 34,
     "properties": {
       "Mode": {
         "value": "Cock"
@@ -280,7 +280,7 @@
   },
   "ClickGUI": {
     "value": false,
-    "key": 56,
+    "key": 54,
     "properties": {}
   },
   "Ambience": {
@@ -327,7 +327,7 @@
   },
   "NoFall": {
     "value": false,
-    "key": 0,
+    "key": 49,
     "properties": {
       "Mode": {
         "value": "Spoof"
@@ -356,7 +356,7 @@
   },
   "NoSlow": {
     "value": true,
-    "key": 24,
+    "key": 0,
     "properties": {
       "Block Mode": {
         "value": "Spoof3"
@@ -394,7 +394,7 @@
     }
   },
   "NoJumpDelay": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {}
   },
@@ -414,7 +414,7 @@
   },
   "Blink": {
     "value": false,
-    "key": 45,
+    "key": 47,
     "properties": {
       "Mode": {
         "value": "Intave"
@@ -490,7 +490,7 @@
   },
   "Speed": {
     "value": false,
-    "key": 46,
+    "key": 48,
     "properties": {
       "Mode": {
         "value": "Vulcan"
@@ -499,7 +499,7 @@
   },
   "LongJump": {
     "value": false,
-    "key": 0,
+    "key": 35,
     "properties": {}
   },
   "PingSpoof": {
@@ -543,7 +543,7 @@
   },
   "ChestESP": {
     "value": false,
-    "key": 47,
+    "key": 46,
     "properties": {
       "Boxy": {
         "value": false
@@ -634,7 +634,7 @@
   },
   "NoFriends": {
     "value": true,
-    "key": 37,
+    "key": 21,
     "properties": {
       "Auto disable": {
         "value": false
@@ -658,10 +658,10 @@
   },
   "Scaffold": {
     "value": false,
-    "key": 34,
+    "key": 45,
     "properties": {
       "Bridge Mode": {
-        "value": "Normal"
+        "value": "Slow"
       },
       "Edge Mode": {
         "value": "Circular"
@@ -670,7 +670,7 @@
         "value": "Golden Ratio"
       },
       "Tower Mode": {
-        "value": "Gravity"
+        "value": "None"
       },
       "Sprint": {
         "value": false
@@ -726,14 +726,14 @@
     }
   },
   "FastPlace": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Delay": {
-        "value": 2.0
+        "value": 0.0
       },
       "Randomize": {
-        "value": true
+        "value": false
       },
       "Only blocks": {
         "value": true
@@ -742,7 +742,7 @@
   },
   "Step": {
     "value": false,
-    "key": 0,
+    "key": 44,
     "properties": {
       "Mode": {
         "value": "Basic"
