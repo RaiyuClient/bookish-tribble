@@ -1,5 +1,6 @@
 CheatMine
 CoralMC
+Cubecraft
 Gamster
 Gomme
 Grim
