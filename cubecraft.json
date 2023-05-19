@@ -31,7 +31,7 @@
   },
   "Breaker": {
     "value": false,
-    "key": 0,
+    "key": 38,
     "properties": {}
   },
   "Reach": {
@@ -68,7 +68,7 @@
   },
   "Sprint": {
     "value": true,
-    "key": 0,
+    "key": 37,
     "properties": {
       "Keep sprint": {
         "value": false
@@ -276,10 +276,10 @@
   },
   "Disabler": {
     "value": true,
-    "key": 34,
+    "key": 49,
     "properties": {
       "Mode": {
-        "value": "Vulcan"
+        "value": "Sentinel"
       }
     }
   },
@@ -326,8 +326,8 @@
     }
   },
   "NoFall": {
-    "value": true,
-    "key": 0,
+    "value": false,
+    "key": 49,
     "properties": {
       "Mode": {
         "value": "Vulcan"
@@ -493,13 +493,16 @@
     "key": 48,
     "properties": {
       "Mode": {
-        "value": "Vulcan"
+        "value": "BHop"
+      },
+      "Speed": {
+        "value": 1.2000000476837158
       }
     }
   },
   "LongJump": {
     "value": false,
-    "key": 0,
+    "key": 35,
     "properties": {}
   },
   "PingSpoof": {
@@ -646,7 +649,7 @@
     "key": 33,
     "properties": {
       "Mode": {
-        "value": "Verus"
+        "value": "Motion"
       },
       "Boosting ticks": {
         "value": 3.0
@@ -742,7 +745,7 @@
   },
   "Step": {
     "value": false,
-    "key": 0,
+    "key": 44,
     "properties": {
       "Mode": {
         "value": "Basic"
