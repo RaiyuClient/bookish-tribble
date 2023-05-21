@@ -129,23 +129,26 @@
       "Random amount": {
         "left": -25.0,
         "right": 25.0
+      },
+      "Only players": {
+        "value": true
       }
     }
   },
   "NoBob": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {}
   },
   "InvMove": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Prevent Packets": {
         "value": false
       },
       "Only Click GUI": {
-        "value": false
+        "value": true
       }
     }
   },
@@ -157,6 +160,11 @@
         "value": "NCP"
       }
     }
+  },
+  "StreamerMode": {
+    "value": false,
+    "key": 0,
+    "properties": {}
   },
   "Pointers": {
     "value": false,
@@ -271,7 +279,7 @@
   },
   "Disabler": {
     "value": false,
-    "key": 0,
+    "key": 33,
     "properties": {
       "Mode": {
         "value": "Cock"
@@ -288,7 +296,7 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Day"
+        "value": "Night"
       },
       "Time cyle": {
         "left": 6000.0,
@@ -297,7 +305,7 @@
     }
   },
   "ItemAnimation": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Mode": {
@@ -311,13 +319,8 @@
       }
     }
   },
-  "Prediction": {
-    "value": false,
-    "key": 0,
-    "properties": {}
-  },
   "MoveFix": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Mode": {
@@ -355,17 +358,17 @@
     }
   },
   "NoSlow": {
-    "value": true,
+    "value": false,
     "key": 24,
     "properties": {
       "Block Mode": {
-        "value": "Spoof3"
+        "value": "Basic"
       },
       "Attack multiplier": {
         "value": 1.0
       },
       "Block multiplier": {
-        "value": 0.9000000357627869
+        "value": 0.20000000298023224
       },
       "Bow slowdown": {
         "value": false
@@ -426,7 +429,7 @@
     "key": 19,
     "properties": {
       "Range": {
-        "value": 3.799999952316284
+        "value": 3.700000047683716
       },
       "CPS": {
         "left": 8.0,
@@ -450,6 +453,9 @@
       "Only players": {
         "value": true
       },
+      "Ignore raytrace": {
+        "value": false
+      },
       "Wait for tickbase": {
         "value": true
       },
@@ -460,16 +466,16 @@
         "value": "Single"
       },
       "Priority Mode": {
-        "value": "Angle"
+        "value": "Health"
       },
       "FOV angle": {
         "value": 180.0
       },
       "Blocking Mode": {
-        "value": "Key Press"
+        "value": "None"
       },
       "Rotation speed": {
-        "value": 0.8500000238418579
+        "value": 0.75
       },
       "Auto disable": {
         "value": true
@@ -477,7 +483,7 @@
     }
   },
   "AntiFireball": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Range": {
@@ -494,12 +500,15 @@
     "properties": {
       "Mode": {
         "value": "Vulcan"
+      },
+      "Speed": {
+        "value": 1.2000000476837158
       }
     }
   },
   "LongJump": {
     "value": false,
-    "key": 0,
+    "key": 48,
     "properties": {}
   },
   "PingSpoof": {
@@ -648,11 +657,17 @@
       "Mode": {
         "value": "Grim"
       },
-      "Boosting ticks": {
+      "Boosting Ticks": {
         "value": 3.0
       },
       "Allow upwards jump": {
         "value": true
+      },
+      "Horizontal Speed": {
+        "value": 2.5
+      },
+      "Vertical Speed": {
+        "value": 1.5
       }
     }
   },
@@ -661,7 +676,7 @@
     "key": 34,
     "properties": {
       "Bridge Mode": {
-        "value": "Slow"
+        "value": "Godly"
       },
       "Edge Mode": {
         "value": "Circular"
@@ -726,14 +741,14 @@
     }
   },
   "FastPlace": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Delay": {
-        "value": 3.0
+        "value": 0.0
       },
       "Randomize": {
-        "value": true
+        "value": false
       },
       "Only blocks": {
         "value": true
@@ -783,6 +798,9 @@
       },
       "Range": {
         "value": 5.699999809265137
+      },
+      "Only players": {
+        "value": true
       },
       "Prevent health updates": {
         "value": true
