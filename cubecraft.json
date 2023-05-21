@@ -31,7 +31,7 @@
   },
   "Breaker": {
     "value": false,
-    "key": 38,
+    "key": 44,
     "properties": {}
   },
   "Reach": {
@@ -45,7 +45,7 @@
   },
   "InvManager": {
     "value": true,
-    "key": 50,
+    "key": 36,
     "properties": {
       "Click delay": {
         "left": 50.0,
@@ -68,10 +68,10 @@
   },
   "Sprint": {
     "value": true,
-    "key": 37,
+    "key": 0,
     "properties": {
       "Keep sprint": {
-        "value": false
+        "value": true
       }
     }
   },
@@ -112,7 +112,7 @@
   },
   "TickBase": {
     "value": false,
-    "key": 0,
+    "key": 21,
     "properties": {
       "Mode": {
         "value": "Past"
@@ -129,6 +129,9 @@
       "Random amount": {
         "left": -25.0,
         "right": 25.0
+      },
+      "Only players": {
+        "value": true
       }
     }
   },
@@ -138,7 +141,7 @@
     "properties": {}
   },
   "InvMove": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Prevent Packets": {
@@ -165,7 +168,7 @@
   },
   "Pointers": {
     "value": false,
-    "key": 0,
+    "key": 35,
     "properties": {
       "Radius": {
         "value": 50.0
@@ -227,7 +230,7 @@
   },
   "Stealer": {
     "value": false,
-    "key": 46,
+    "key": 47,
     "properties": {
       "Click delay": {
         "left": 50.0,
@@ -253,13 +256,13 @@
         "value": true
       },
       "Chest aura": {
-        "value": false
+        "value": true
       },
       "Chest switch delay": {
-        "value": 100.0
+        "value": 250.0
       },
       "Ghost hand": {
-        "value": true
+        "value": false
       },
       "Auto disable": {
         "value": false
@@ -276,7 +279,7 @@
   },
   "Disabler": {
     "value": true,
-    "key": 49,
+    "key": 33,
     "properties": {
       "Mode": {
         "value": "Sentinel"
@@ -285,7 +288,7 @@
   },
   "ClickGUI": {
     "value": false,
-    "key": 54,
+    "key": 56,
     "properties": {}
   },
   "Ambience": {
@@ -327,10 +330,10 @@
   },
   "NoFall": {
     "value": false,
-    "key": 49,
+    "key": 0,
     "properties": {
       "Mode": {
-        "value": "Vulcan"
+        "value": "NoGround"
       }
     }
   },
@@ -356,7 +359,7 @@
   },
   "NoSlow": {
     "value": true,
-    "key": 0,
+    "key": 24,
     "properties": {
       "Block Mode": {
         "value": "Basic"
@@ -399,7 +402,7 @@
     "properties": {}
   },
   "AntiBots": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Move Check": {
@@ -414,7 +417,7 @@
   },
   "Blink": {
     "value": false,
-    "key": 47,
+    "key": 45,
     "properties": {
       "Mode": {
         "value": "Intave"
@@ -426,7 +429,7 @@
     "key": 19,
     "properties": {
       "Range": {
-        "value": 4.599999904632568
+        "value": 6.0
       },
       "CPS": {
         "left": 8.0,
@@ -448,6 +451,9 @@
         "value": true
       },
       "Only players": {
+        "value": true
+      },
+      "Ignore raytrace": {
         "value": true
       },
       "Wait for tickbase": {
@@ -490,7 +496,7 @@
   },
   "Speed": {
     "value": false,
-    "key": 48,
+    "key": 46,
     "properties": {
       "Mode": {
         "value": "BHop"
@@ -502,7 +508,7 @@
   },
   "LongJump": {
     "value": false,
-    "key": 35,
+    "key": 48,
     "properties": {}
   },
   "PingSpoof": {
@@ -520,10 +526,10 @@
     "key": 0,
     "properties": {
       "Delay": {
-        "value": 15.0
+        "value": 2.0
       },
       "While moving": {
-        "value": false
+        "value": true
       }
     }
   },
@@ -546,7 +552,7 @@
   },
   "ChestESP": {
     "value": false,
-    "key": 46,
+    "key": 47,
     "properties": {
       "Boxy": {
         "value": false
@@ -631,13 +637,13 @@
     }
   },
   "VClip": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {}
   },
   "NoFriends": {
     "value": false,
-    "key": 21,
+    "key": 37,
     "properties": {
       "Auto disable": {
         "value": false
@@ -651,17 +657,23 @@
       "Mode": {
         "value": "Motion"
       },
-      "Boosting ticks": {
+      "Boosting Ticks": {
         "value": 3.0
       },
       "Allow upwards jump": {
         "value": true
+      },
+      "Horizontal Speed": {
+        "value": 2.5
+      },
+      "Vertical Speed": {
+        "value": 1.5
       }
     }
   },
   "Scaffold": {
     "value": false,
-    "key": 45,
+    "key": 34,
     "properties": {
       "Bridge Mode": {
         "value": "Normal"
@@ -744,14 +756,14 @@
     }
   },
   "Step": {
-    "value": false,
-    "key": 44,
+    "value": true,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Basic"
       },
       "Max Height": {
-        "value": 2.0
+        "value": 5.0
       }
     }
   },
@@ -786,6 +798,9 @@
       },
       "Range": {
         "value": 5.699999809265137
+      },
+      "Only players": {
+        "value": true
       },
       "Prevent health updates": {
         "value": true
