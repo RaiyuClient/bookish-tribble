@@ -5,8 +5,9 @@ Gamster
 Gomme
 Grim
 Herobrine
+HypixelSafe
 Hypixel
-HypixelRage
+HypixelStaffAlert
 Minemen
 Pika
 Sparky
