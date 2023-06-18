@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "ip": "example.com",
+    "ip": "eu.minemen.club",
     "version": "1.8",
-    "system": "AnticheatX",
-    "date": 1685723996891,
+    "system": "AGC",
+    "date": 1685623480478,
     "author": "Patrick",
-    "description": "An example description"
+    "description": "Practice server (1v1)"
   },
   "FastHeal": {
     "value": false,
@@ -82,11 +82,6 @@
         "value": false
       }
     }
-  },
-  "AutoTool": {
-    "value": true,
-    "key": 0,
-    "properties": {}
   },
   "STest": {
     "value": false,
@@ -554,7 +549,7 @@
     "key": 0,
     "properties": {
       "Delay": {
-        "value": 5.0
+        "value": 4.0
       },
       "While moving": {
         "value": true
@@ -809,7 +804,7 @@
         "value": "Sprint"
       },
       "Tap-time Mode": {
-        "value": "Mid"
+        "value": "Early"
       },
       "Probability": {
         "value": 1.0
@@ -818,7 +813,7 @@
         "value": true
       },
       "Reset on ground": {
-        "value": false
+        "value": true
       }
     }
   },
