@@ -1,4 +1,12 @@
 {
+  "metadata": {
+    "ip": "example.com",
+    "version": "1.8",
+    "system": "AnticheatX",
+    "date": 1685723996891,
+    "author": "Patrick",
+    "description": "An example description"
+  },
   "FastHeal": {
     "value": false,
     "key": 0,
@@ -16,16 +24,16 @@
     "key": 0,
     "properties": {
       "Boxy": {
-        "value": true
+        "value": false
       },
       "Box Alpha": {
         "value": 0.3
       },
       "Projection": {
-        "value": false
+        "value": true
       },
       "Shader": {
-        "value": false
+        "value": true
       }
     }
   },
@@ -75,6 +83,11 @@
       }
     }
   },
+  "AutoTool": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
   "STest": {
     "value": false,
     "key": 0,
@@ -111,17 +124,17 @@
     }
   },
   "TickBase": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Mode": {
         "value": "Future"
       },
       "Ticks": {
-        "value": 2.0
+        "value": 4.0
       },
       "Delay": {
-        "value": 500.0
+        "value": 750.0
       },
       "Randomization": {
         "value": true
@@ -129,6 +142,9 @@
       "Random amount": {
         "left": -15.0,
         "right": 15.0
+      },
+      "Only players": {
+        "value": true
       }
     }
   },
@@ -252,6 +268,9 @@
       "Steal potions": {
         "value": true
       },
+      "Use swap": {
+        "value": true
+      },
       "Chest aura": {
         "value": false
       },
@@ -276,7 +295,7 @@
   },
   "Disabler": {
     "value": false,
-    "key": 34,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Blockdrop"
@@ -312,7 +331,7 @@
         "value": true
       },
       "Swing speed": {
-        "value": 0.5
+        "value": 0.3499999940395355
       }
     }
   },
@@ -340,17 +359,17 @@
     "properties": {}
   },
   "Shaders": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Radius": {
-        "value": 4.0
+        "value": 8.0
       },
       "Multiplier": {
-        "value": 1.0
+        "value": 1.5
       },
       "Texel size": {
-        "value": 2.0
+        "value": 4.0
       }
     }
   },
@@ -390,6 +409,15 @@
     "properties": {
       "Mode": {
         "value": "Platform"
+      }
+    }
+  },
+  "Trajectories": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Colored": {
+        "value": false
       }
     }
   },
@@ -450,8 +478,11 @@
       "Only players": {
         "value": true
       },
+      "Ignore raytrace": {
+        "value": false
+      },
       "Wait for tickbase": {
-        "value": true
+        "value": false
       },
       "Wait for blink": {
         "value": true
@@ -470,6 +501,9 @@
       },
       "Rotation speed": {
         "value": 1.0
+      },
+      "Target circle": {
+        "value": true
       },
       "Auto disable": {
         "value": true
@@ -516,7 +550,7 @@
     }
   },
   "Advertisements": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Delay": {
@@ -538,6 +572,9 @@
     "properties": {
       "AutoJump": {
         "value": false
+      },
+      "Only on ground": {
+        "value": true
       },
       "Idle on damage": {
         "value": false
@@ -601,11 +638,11 @@
     "properties": {}
   },
   "Velocity": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Jump"
+        "value": "Intave"
       },
       "Horizontal percentage": {
         "value": 1.0
@@ -687,6 +724,9 @@
       "Expand": {
         "value": false
       },
+      "Extra clicks": {
+        "value": true
+      },
       "Same Y": {
         "value": false
       },
@@ -727,7 +767,7 @@
         "value": true
       },
       "No item frames": {
-        "value": false
+        "value": true
       },
       "Low fire": {
         "value": true
@@ -769,16 +809,16 @@
         "value": "Sprint"
       },
       "Tap-time Mode": {
-        "value": "Late"
+        "value": "Mid"
       },
       "Probability": {
-        "value": 0.8500000238418579
+        "value": 1.0
       },
       "Increase Probability": {
         "value": true
       },
       "Reset on ground": {
-        "value": true
+        "value": false
       }
     }
   },
@@ -792,6 +832,9 @@
       },
       "Range": {
         "value": 6.0
+      },
+      "Only players": {
+        "value": true
       },
       "Prevent health updates": {
         "value": false
