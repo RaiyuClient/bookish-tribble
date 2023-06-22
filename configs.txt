@@ -9,5 +9,6 @@ Hypixel
 Minemen
 Polar
 Rinaorc
+Twerion
 VimeMCBW
 VimeMCSW
