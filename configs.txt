@@ -6,6 +6,7 @@ GamsterSW
 Gomme
 Herobrine
 Hypixel
+HypixelRage
 Minemen
 Polar
 Rinaorc
