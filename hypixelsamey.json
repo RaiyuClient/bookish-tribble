@@ -5,7 +5,7 @@
     "system": "AnticheatX",
     "date": 1688520215519,
     "author": "haze",
-    "description": "An example description"
+    "description": "SameY Scaffold, turn scaffold on before jumping. For Speed, bind strafe + speed to the same key. Will definetly Staff alert"
   },
   "FastHeal": {
     "value": false,
