@@ -3,9 +3,9 @@
     "ip": "example.com",
     "version": "1.8",
     "system": "AnticheatX",
-    "date": 1688518380518,
+    "date": 1688520215519,
     "author": "haze",
-    "description": "Bind Strafe + Speed to the same key. No AutoBlock."
+    "description": "An example description"
   },
   "FastHeal": {
     "value": false,
@@ -30,7 +30,7 @@
         "value": 0.3
       },
       "Projection": {
-        "value": false
+        "value": true
       },
       "Shader": {
         "value": true
@@ -161,7 +161,7 @@
     }
   },
   "NoBob": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {}
   },
@@ -284,10 +284,10 @@
         "value": false
       },
       "Chest aura": {
-        "value": false
+        "value": true
       },
       "Chest switch delay": {
-        "value": 100.0
+        "value": 200.0
       },
       "Ghost hand": {
         "value": true
@@ -399,13 +399,13 @@
     "key": 24,
     "properties": {
       "Block Mode": {
-        "value": "Basic"
+        "value": "Spoof3"
       },
       "Attack multiplier": {
         "value": 1.0
       },
       "Block multiplier": {
-        "value": 0.20000000298023224
+        "value": 1.0
       },
       "Bow slowdown": {
         "value": false
@@ -527,7 +527,7 @@
         "value": 180.0
       },
       "Blocking Mode": {
-        "value": "None"
+        "value": "Key Press"
       },
       "Rotation speed": {
         "value": 0.8500000238418579
@@ -770,13 +770,13 @@
         "value": "None"
       },
       "Sprint": {
-        "value": false
+        "value": true
       },
       "Extra clicks": {
         "value": false
       },
       "Same Y": {
-        "value": false
+        "value": true
       },
       "Reuse rotation": {
         "value": true
@@ -785,7 +785,7 @@
         "value": true
       },
       "Snap": {
-        "value": false
+        "value": true
       },
       "No swing": {
         "value": true
@@ -799,7 +799,7 @@
     }
   },
   "HUD": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Chat blur": {
