@@ -1,5 +1,6 @@
 BlocksMCSW
 CheatmineBW
+Craftplay
 Cubecraft
 GamsterBW
 GamsterSW
