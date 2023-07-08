@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "ip": "example.com",
+    "ip": "hypixel.net",
     "version": "1.8",
-    "system": "AnticheatX",
-    "date": 1688518380518,
-    "author": "haze",
+    "system": "UNCP/Watchdog",
+    "date": 1688811323581,
+    "author": "Patrick + haze",
     "description": "Bind Strafe + Speed to the same key. No AutoBlock."
   },
   "FastHeal": {
@@ -39,7 +39,7 @@
   },
   "Breaker": {
     "value": false,
-    "key": 44,
+    "key": 38,
     "properties": {}
   },
   "Reach": {
@@ -53,30 +53,33 @@
   },
   "InvManager": {
     "value": true,
-    "key": 36,
+    "key": 50,
     "properties": {
       "Click delay": {
-        "left": 50.0,
-        "right": 75.0
+        "left": 75.0,
+        "right": 150.0
       },
       "Open delay": {
         "left": 125.0,
-        "right": 175.0
+        "right": 225.0
       },
       "Sort inventory": {
         "value": true
       },
       "Prefer swords": {
-        "value": true
+        "value": false
       },
       "Blocks in hotbar": {
+        "value": true
+      },
+      "Remove low amounts": {
         "value": true
       }
     }
   },
   "Sprint": {
     "value": true,
-    "key": 0,
+    "key": 37,
     "properties": {
       "Mode": {
         "value": "Legit"
@@ -137,7 +140,7 @@
   },
   "TickBase": {
     "value": false,
-    "key": 21,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Past"
@@ -186,6 +189,18 @@
       }
     }
   },
+  "AntiTNT": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Show radius": {
+        "value": true
+      },
+      "Show time": {
+        "value": true
+      }
+    }
+  },
   "StreamerMode": {
     "value": false,
     "key": 0,
@@ -193,7 +208,7 @@
   },
   "Pointers": {
     "value": false,
-    "key": 35,
+    "key": 0,
     "properties": {
       "Radius": {
         "value": 50.0
@@ -255,7 +270,7 @@
   },
   "Stealer": {
     "value": false,
-    "key": 47,
+    "key": 46,
     "properties": {
       "Click delay": {
         "left": 50.0,
@@ -320,12 +335,12 @@
   },
   "PolarFun": {
     "value": false,
-    "key": 0,
+    "key": 34,
     "properties": {}
   },
   "ClickGUI": {
     "value": false,
-    "key": 56,
+    "key": 54,
     "properties": {}
   },
   "Ambience": {
@@ -367,7 +382,7 @@
   },
   "NoFall": {
     "value": false,
-    "key": 0,
+    "key": 49,
     "properties": {
       "Mode": {
         "value": "Spoof"
@@ -396,7 +411,7 @@
   },
   "NoSlow": {
     "value": true,
-    "key": 24,
+    "key": 0,
     "properties": {
       "Block Mode": {
         "value": "Basic"
@@ -456,14 +471,9 @@
       }
     }
   },
-  "Privacy": {
-    "value": false,
-    "key": 0,
-    "properties": {}
-  },
   "Blink": {
     "value": false,
-    "key": 0,
+    "key": 47,
     "properties": {
       "Mode": {
         "value": "Intave"
@@ -484,11 +494,11 @@
     "key": 19,
     "properties": {
       "Range": {
-        "value": 5.300000190734863
+        "value": 3.799999952316284
       },
       "CPS": {
-        "left": 12.0,
-        "right": 22.0
+        "left": 8.0,
+        "right": 14.0
       },
       "Clicking Mode": {
         "value": "Schwuchtel+"
@@ -544,7 +554,7 @@
     }
   },
   "AntiFireball": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {
       "Range": {
@@ -557,7 +567,7 @@
   },
   "Speed": {
     "value": false,
-    "key": 46,
+    "key": 48,
     "properties": {
       "Mode": {
         "value": "Jump"
@@ -572,7 +582,7 @@
   },
   "LongJump": {
     "value": false,
-    "key": 48,
+    "key": 35,
     "properties": {}
   },
   "Timer": {
@@ -619,7 +629,7 @@
   },
   "Strafe": {
     "value": false,
-    "key": 46,
+    "key": 0,
     "properties": {
       "AutoJump": {
         "value": false
@@ -634,7 +644,7 @@
   },
   "ChestESP": {
     "value": false,
-    "key": 47,
+    "key": 46,
     "properties": {
       "Boxy": {
         "value": false
@@ -663,7 +673,7 @@
     }
   },
   "NameTags": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Health": {
@@ -725,7 +735,7 @@
   },
   "NoFriends": {
     "value": true,
-    "key": 37,
+    "key": 21,
     "properties": {
       "Auto disable": {
         "value": false
@@ -755,7 +765,7 @@
   },
   "Scaffold": {
     "value": false,
-    "key": 34,
+    "key": 45,
     "properties": {
       "Bridge Mode": {
         "value": "Breezily"
@@ -851,7 +861,7 @@
   },
   "Step": {
     "value": false,
-    "key": 0,
+    "key": 44,
     "properties": {
       "Mode": {
         "value": "Basic"
