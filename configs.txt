@@ -5,12 +5,14 @@ Cubecraft
 GamsterBW
 GamsterSW
 Gomme
+GommeRage
 Herobrine
 Hypixel
 HypixelRage
 HypixelSameY
 Minemen
 Polar
+PikaSW
 Rinaorc
 Twerion
 VimeMCBW
