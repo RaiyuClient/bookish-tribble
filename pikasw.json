@@ -1,0 +1,920 @@
+{
+  "metadata": {
+    "ip": "pika-network.net",
+    "version": "1.8",
+    "system": "Polar",
+    "date": 1688761627156,
+    "author": "floppa",
+    "description": "ehhhh same as the other polar cfg but with autoblock and sword noslow yippee!!"
+  },
+  "FastHeal": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Abuse"
+      },
+      "Additional Packets": {
+        "value": 2.0
+      }
+    }
+  },
+  "ESP": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Boxy": {
+        "value": false
+      },
+      "Box Alpha": {
+        "value": 0.3
+      },
+      "Projection": {
+        "value": false
+      },
+      "Shader": {
+        "value": true
+      }
+    }
+  },
+  "Breaker": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "Reach": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Reach": {
+        "value": 3.0
+      }
+    }
+  },
+  "InvManager": {
+    "value": true,
+    "key": 50,
+    "properties": {
+      "Click delay": {
+        "left": 150.0,
+        "right": 325.0
+      },
+      "Open delay": {
+        "left": 100.0,
+        "right": 200.0
+      },
+      "Sort inventory": {
+        "value": true
+      },
+      "Prefer swords": {
+        "value": false
+      },
+      "Blocks in hotbar": {
+        "value": true
+      },
+      "Remove low amounts": {
+        "value": true
+      }
+    }
+  },
+  "Sprint": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Legit"
+      },
+      "Keep sprint": {
+        "value": false
+      }
+    }
+  },
+  "AutoTool": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "ResourcePackFix": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Block launcher"
+      }
+    }
+  },
+  "STest": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Bridge Mode": {
+        "value": "Sneak"
+      },
+      "Sneak Interval": {
+        "value": 2.0
+      }
+    }
+  },
+  "MCF": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "AutoJoin": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Gxmstxr"
+      }
+    }
+  },
+  "Fullbright": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Gamma"
+      }
+    }
+  },
+  "TickBase": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Past"
+      },
+      "Ticks": {
+        "value": 4.0
+      },
+      "Delay": {
+        "value": 650.0
+      },
+      "Randomization": {
+        "value": true
+      },
+      "Random amount": {
+        "left": -25.0,
+        "right": 25.0
+      },
+      "Only players": {
+        "value": true
+      }
+    }
+  },
+  "NoBob": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "InvMove": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Prevent Packets": {
+        "value": false
+      },
+      "Only Click GUI": {
+        "value": true
+      }
+    }
+  },
+  "Sneak": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "NCP"
+      }
+    }
+  },
+  "AntiTNT": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Show radius": {
+        "value": false
+      },
+      "Show time": {
+        "value": false
+      }
+    }
+  },
+  "StreamerMode": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "Pointers": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Radius": {
+        "value": 63.0
+      },
+      "Simulate 3D": {
+        "value": true
+      },
+      "Fill ellipse": {
+        "value": false
+      },
+      "Color by distance": {
+        "value": false
+      },
+      "Show boxes": {
+        "value": true
+      },
+      "Show names": {
+        "value": false
+      }
+    }
+  },
+  "AutoLogin": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Join delay": {
+        "value": 1000.0
+      },
+      "Delay": {
+        "value": 500.0
+      }
+    }
+  },
+  "Test": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Range": {
+        "value": 3.0
+      },
+      "Mean": {
+        "value": 70.0
+      },
+      "Deviation": {
+        "value": 30.0
+      },
+      "Only Player": {
+        "value": true
+      },
+      "Invisibles": {
+        "value": false
+      }
+    }
+  },
+  "Teams": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Stealer": {
+    "value": false,
+    "key": 46,
+    "properties": {
+      "Click delay": {
+        "left": 125.0,
+        "right": 200.0
+      },
+      "Open delay": {
+        "left": 125.0,
+        "right": 200.0
+      },
+      "Pattern mode": {
+        "value": "Distance"
+      },
+      "Only chests": {
+        "value": true
+      },
+      "Auto close": {
+        "value": true
+      },
+      "Steal tools": {
+        "value": true
+      },
+      "Steal potions": {
+        "value": true
+      },
+      "Use swap": {
+        "value": true
+      },
+      "Chest aura": {
+        "value": false
+      },
+      "Chest switch delay": {
+        "value": 375.0
+      },
+      "Ghost hand": {
+        "value": false
+      },
+      "Auto disable": {
+        "value": false
+      },
+      "Disable chest ESP": {
+        "value": false
+      }
+    }
+  },
+  "ModuleList": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Blur": {
+        "value": true
+      }
+    }
+  },
+  "Disabler": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Cock"
+      }
+    }
+  },
+  "PolarFun": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "ClickGUI": {
+    "value": false,
+    "key": 54,
+    "properties": {}
+  },
+  "Ambience": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Noon"
+      },
+      "Time cyle": {
+        "left": 6000.0,
+        "right": 16000.0
+      }
+    }
+  },
+  "ItemAnimation": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Old"
+      },
+      "Force animation": {
+        "value": true
+      },
+      "Swing speed": {
+        "value": 0.699999988079071
+      }
+    }
+  },
+  "MoveFix": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Silent"
+      }
+    }
+  },
+  "NoFall": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Vulcan"
+      }
+    }
+  },
+  "ClientCapes": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Shaders": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Radius": {
+        "value": 6.0
+      },
+      "Multiplier": {
+        "value": 1.2999999523162842
+      },
+      "Texel size": {
+        "value": 2.0
+      }
+    }
+  },
+  "NoSlow": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Block Mode": {
+        "value": "Spoof"
+      },
+      "Attack multiplier": {
+        "value": 0.6000000238418579
+      },
+      "Block multiplier": {
+        "value": 1.0
+      },
+      "Bow slowdown": {
+        "value": false
+      },
+      "Bow multiplier": {
+        "value": 1.0
+      },
+      "Consume slowdown": {
+        "value": false
+      },
+      "Consume multiplier": {
+        "value": 1.0
+      },
+      "Sprint while use": {
+        "value": true
+      }
+    }
+  },
+  "AntiVoid": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Platform"
+      }
+    }
+  },
+  "Trajectories": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Colored": {
+        "value": false
+      }
+    }
+  },
+  "NoJumpDelay": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "AntiBots": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Move Check": {
+        "value": true
+      }
+    }
+  },
+  "Blink": {
+    "value": false,
+    "key": 47,
+    "properties": {
+      "Mode": {
+        "value": "Intave"
+      },
+      "Auto disable on hit": {
+        "value": true
+      },
+      "Auto disable": {
+        "value": false
+      },
+      "Auto disable time": {
+        "value": 5000.0
+      }
+    }
+  },
+  "Aura": {
+    "value": false,
+    "key": 19,
+    "properties": {
+      "Range": {
+        "value": 3.0
+      },
+      "CPS": {
+        "left": 9.0,
+        "right": 14.0
+      },
+      "Clicking Mode": {
+        "value": "Basic"
+      },
+      "Randomize interval": {
+        "value": false
+      },
+      "Perfect hit": {
+        "value": true
+      },
+      "Perfect hit chance": {
+        "value": 1.0
+      },
+      "Hurttime hitting": {
+        "value": true
+      },
+      "Only players": {
+        "value": true
+      },
+      "Ignore raytrace": {
+        "value": false
+      },
+      "Wait for tickbase": {
+        "value": true
+      },
+      "Wait for blink": {
+        "value": true
+      },
+      "Attack Mode": {
+        "value": "Single"
+      },
+      "Priority Mode": {
+        "value": "None"
+      },
+      "FOV angle": {
+        "value": 180.0
+      },
+      "Blocking Mode": {
+        "value": "Key Press"
+      },
+      "Rotation speed": {
+        "value": 0.4000000059604645
+      },
+      "Target circle": {
+        "value": true
+      },
+      "Auto disable": {
+        "value": true
+      },
+      "Prioritize scaffold": {
+        "value": true
+      }
+    }
+  },
+  "AntiFireball": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Range": {
+        "value": 6.0
+      },
+      "Shoot upwards": {
+        "value": false
+      }
+    }
+  },
+  "Speed": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Jump"
+      },
+      "Speed": {
+        "value": 0.4000000059604645
+      },
+      "Ignore liquids": {
+        "value": true
+      }
+    }
+  },
+  "LongJump": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "Timer": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Timer": {
+        "value": 1.0
+      },
+      "Auto disable": {
+        "value": false
+      },
+      "Auto disable time": {
+        "value": 5000.0
+      }
+    }
+  },
+  "PingSpoof": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Ping": {
+        "left": 50.0,
+        "right": 300.0
+      }
+    }
+  },
+  "Advertisements": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Delay": {
+        "value": 5.0
+      },
+      "While moving": {
+        "value": true
+      }
+    }
+  },
+  "AntiPotion": {
+    "value": true,
+    "key": 0,
+    "properties": {}
+  },
+  "Strafe": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "AutoJump": {
+        "value": false
+      },
+      "Only on ground": {
+        "value": true
+      },
+      "Idle on damage": {
+        "value": false
+      }
+    }
+  },
+  "ChestESP": {
+    "value": false,
+    "key": 46,
+    "properties": {
+      "Boxy": {
+        "value": true
+      },
+      "Box Alpha": {
+        "value": 0.4000000059604645
+      },
+      "Projection": {
+        "value": false
+      },
+      "Shader": {
+        "value": false
+      },
+      "Rumble Box": {
+        "value": false
+      }
+    }
+  },
+  "FastUse": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Grim (Flag)"
+      }
+    }
+  },
+  "NameTags": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Health": {
+        "value": true
+      },
+      "Show Client": {
+        "value": true
+      },
+      "Show Branch": {
+        "value": true
+      },
+      "Show IRC Name": {
+        "value": false
+      },
+      "Debug": {
+        "value": false
+      }
+    }
+  },
+  "SkinBlink": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "Velocity": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Jump"
+      },
+      "Horizontal percentage": {
+        "value": 1.0
+      },
+      "Vertical percentage": {
+        "value": 1.0
+      },
+      "Invert horizontal": {
+        "value": false
+      },
+      "Probability": {
+        "value": 1.0
+      },
+      "Increase probability": {
+        "value": true
+      },
+      "Reverse offset": {
+        "value": 1.0
+      },
+      "Slowdown percentage": {
+        "value": 0.6
+      }
+    }
+  },
+  "VClip": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
+  "NoFriends": {
+    "value": false,
+    "key": 21,
+    "properties": {
+      "Auto disable": {
+        "value": false
+      }
+    }
+  },
+  "Fly": {
+    "value": false,
+    "key": 33,
+    "properties": {
+      "Mode": {
+        "value": "Blockdrop"
+      },
+      "Boosting Ticks": {
+        "value": 3.0
+      },
+      "Allow upwards jump": {
+        "value": true
+      },
+      "Horizontal Speed": {
+        "value": 1.2000000476837158
+      },
+      "Vertical Speed": {
+        "value": 1.0
+      }
+    }
+  },
+  "Scaffold": {
+    "value": false,
+    "key": 45,
+    "properties": {
+      "Bridge Mode": {
+        "value": "Slow"
+      },
+      "Edge Mode": {
+        "value": "Circular"
+      },
+      "Rotation Mode": {
+        "value": "Golden Ratio"
+      },
+      "Tower Mode": {
+        "value": "Polar"
+      },
+      "Sprint": {
+        "value": false
+      },
+      "Extra clicks": {
+        "value": true
+      },
+      "Same Y": {
+        "value": false
+      },
+      "Reuse rotation": {
+        "value": true
+      },
+      "Flip at start": {
+        "value": true
+      },
+      "Snap": {
+        "value": false
+      },
+      "No swing": {
+        "value": true
+      },
+      "Auto stop": {
+        "value": true
+      },
+      "Auto disable": {
+        "value": true
+      }
+    }
+  },
+  "HUD": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Chat blur": {
+        "value": true
+      },
+      "Scoreboard blur": {
+        "value": true
+      }
+    }
+  },
+  "NoRender": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "No hurtcam": {
+        "value": true
+      },
+      "No pumpkin": {
+        "value": true
+      },
+      "No bossbar": {
+        "value": true
+      },
+      "No worldborder": {
+        "value": true
+      },
+      "No item frames": {
+        "value": false
+      },
+      "Low fire": {
+        "value": true
+      }
+    }
+  },
+  "FastPlace": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Delay": {
+        "value": 0.0
+      },
+      "Randomize": {
+        "value": false
+      },
+      "Only blocks": {
+        "value": true
+      }
+    }
+  },
+  "Step": {
+    "value": false,
+    "key": 44,
+    "properties": {
+      "Mode": {
+        "value": "Intave (1.5)"
+      },
+      "Max Height": {
+        "value": 2.0
+      }
+    }
+  },
+  "WTap": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Mode": {
+        "value": "Sprint"
+      },
+      "Tap-time Mode": {
+        "value": "Early"
+      },
+      "Probability": {
+        "value": 0.8999999761581421
+      },
+      "Increase Probability": {
+        "value": true
+      },
+      "Reset on ground": {
+        "value": true
+      }
+    }
+  },
+  "Backtrack": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Duration": {
+        "left": 150.0,
+        "right": 210.0
+      },
+      "Range": {
+        "value": 5.199999809265137
+      },
+      "Only players": {
+        "value": true
+      },
+      "Prevent health updates": {
+        "value": true
+      },
+      "Only out of range": {
+        "value": true
+      },
+      "Attack range": {
+        "value": 2.0
+      }
+    }
+  }
+}
