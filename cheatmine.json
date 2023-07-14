@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "ip": "cheatmine.net",
+    "ip": "example.com",
     "version": "1.8",
-    "system": "Intave",
-    "date": 1688809353429,
-    "author": "Patrick",
-    "description": "Intave server with a pretty lenient config"
+    "system": "AnticheatX",
+    "date": 1689100784924,
+    "author": "haze",
+    "description": "An example description"
   },
   "FastHeal": {
     "value": false,
@@ -39,7 +39,7 @@
   },
   "Breaker": {
     "value": false,
-    "key": 38,
+    "key": 44,
     "properties": {}
   },
   "Reach": {
@@ -53,15 +53,15 @@
   },
   "InvManager": {
     "value": true,
-    "key": 50,
+    "key": 36,
     "properties": {
       "Click delay": {
-        "left": 100.0,
-        "right": 250.0
+        "left": 0.0,
+        "right": 25.0
       },
       "Open delay": {
-        "left": 100.0,
-        "right": 200.0
+        "left": 0.0,
+        "right": 75.0
       },
       "Sort inventory": {
         "value": true
@@ -79,7 +79,7 @@
   },
   "Sprint": {
     "value": true,
-    "key": 37,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Legit"
@@ -140,7 +140,7 @@
   },
   "TickBase": {
     "value": true,
-    "key": 0,
+    "key": 21,
     "properties": {
       "Mode": {
         "value": "Future"
@@ -207,8 +207,8 @@
     "properties": {}
   },
   "Pointers": {
-    "value": true,
-    "key": 0,
+    "value": false,
+    "key": 35,
     "properties": {
       "Radius": {
         "value": 60.0
@@ -270,7 +270,7 @@
   },
   "Stealer": {
     "value": false,
-    "key": 46,
+    "key": 47,
     "properties": {
       "Click delay": {
         "left": 50.0,
@@ -335,12 +335,12 @@
   },
   "PolarFun": {
     "value": false,
-    "key": 34,
+    "key": 0,
     "properties": {}
   },
   "ClickGUI": {
     "value": false,
-    "key": 54,
+    "key": 56,
     "properties": {}
   },
   "Ambience": {
@@ -382,7 +382,7 @@
   },
   "NoFall": {
     "value": false,
-    "key": 49,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Vulcan"
@@ -411,7 +411,7 @@
   },
   "NoSlow": {
     "value": false,
-    "key": 0,
+    "key": 24,
     "properties": {
       "Block Mode": {
         "value": "Basic"
@@ -473,7 +473,7 @@
   },
   "Blink": {
     "value": false,
-    "key": 47,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Intave"
@@ -567,10 +567,10 @@
   },
   "Speed": {
     "value": false,
-    "key": 48,
+    "key": 46,
     "properties": {
       "Mode": {
-        "value": "Intave"
+        "value": "Intave (Low)"
       },
       "Speed": {
         "value": 1.2000000476837158
@@ -582,7 +582,7 @@
   },
   "LongJump": {
     "value": false,
-    "key": 35,
+    "key": 48,
     "properties": {}
   },
   "Timer": {
@@ -644,7 +644,7 @@
   },
   "ChestESP": {
     "value": false,
-    "key": 46,
+    "key": 47,
     "properties": {
       "Boxy": {
         "value": true
@@ -735,7 +735,7 @@
   },
   "NoFriends": {
     "value": true,
-    "key": 21,
+    "key": 37,
     "properties": {
       "Auto disable": {
         "value": false
@@ -765,7 +765,7 @@
   },
   "Scaffold": {
     "value": false,
-    "key": 45,
+    "key": 34,
     "properties": {
       "Bridge Mode": {
         "value": "Normal"
@@ -817,6 +817,9 @@
       },
       "Scoreboard blur": {
         "value": true
+      },
+      "Custom hotbar": {
+        "value": true
       }
     }
   },
@@ -861,10 +864,10 @@
   },
   "Step": {
     "value": false,
-    "key": 44,
+    "key": 0,
     "properties": {
       "Mode": {
-        "value": "Intave (1.5)"
+        "value": "Intave (2.0)"
       },
       "Max Height": {
         "value": 2.0
