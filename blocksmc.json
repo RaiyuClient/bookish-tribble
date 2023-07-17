@@ -519,7 +519,7 @@
         "value": true
       },
       "Ignore raytrace": {
-        "value": true
+        "value": false
       },
       "Wait for tickbase": {
         "value": false
