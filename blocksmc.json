@@ -112,6 +112,12 @@
       },
       "Sneak Interval": {
         "value": 1.0
+      },
+      "Distance to edge": {
+        "value": 0.10000000149011612
+      },
+      "Reduce sneak ticks": {
+        "value": 3.0
       }
     }
   },
@@ -566,7 +572,7 @@
     }
   },
   "Speed": {
-    "value": true,
+    "value": false,
     "key": 48,
     "properties": {
       "Mode": {
@@ -628,7 +634,7 @@
     "properties": {}
   },
   "Strafe": {
-    "value": true,
+    "value": false,
     "key": 48,
     "properties": {
       "AutoJump": {
