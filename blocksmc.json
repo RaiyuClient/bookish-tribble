@@ -2,10 +2,10 @@
   "metadata": {
     "ip": "blocksmc.com",
     "version": "1.8",
-    "system": "NCP/Verus?",
-    "date": 1689522965244,
+    "system": "NCP/Verus/Vulcan?",
+    "date": 1689977657963,
     "author": "Patrick",
-    "description": "Bind STest + Scaffold on same key."
+    "description": "Config which does not alert staff"
   },
   "FastHeal": {
     "value": false,
@@ -53,7 +53,7 @@
   },
   "InvManager": {
     "value": true,
-    "key": 0,
+    "key": 50,
     "properties": {
       "Click delay": {
         "left": 100.0,
@@ -79,7 +79,7 @@
   },
   "Sprint": {
     "value": true,
-    "key": 0,
+    "key": 37,
     "properties": {
       "Mode": {
         "value": "Legit"
@@ -100,24 +100,6 @@
     "properties": {
       "Mode": {
         "value": "Block launcher"
-      }
-    }
-  },
-  "STest": {
-    "value": false,
-    "key": 45,
-    "properties": {
-      "Bridge Mode": {
-        "value": "Sneak"
-      },
-      "Sneak Interval": {
-        "value": 1.0
-      },
-      "Distance to edge": {
-        "value": 0.10000000149011612
-      },
-      "Reduce sneak ticks": {
-        "value": 3.0
       }
     }
   },
@@ -163,6 +145,9 @@
       "Random amount": {
         "left": -15.0,
         "right": 15.0
+      },
+      "Only aura": {
+        "value": true
       },
       "Only players": {
         "value": true
@@ -213,11 +198,11 @@
     "properties": {}
   },
   "Pointers": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Radius": {
-        "value": 50.0
+        "value": 65.0
       },
       "Simulate 3D": {
         "value": true
@@ -232,40 +217,19 @@
         "value": false
       },
       "Show names": {
-        "value": false
+        "value": true
       }
     }
   },
   "AutoLogin": {
-    "value": false,
+    "value": true,
     "key": 0,
     "properties": {
       "Join delay": {
         "value": 2000.0
       },
       "Delay": {
-        "value": 500.0
-      }
-    }
-  },
-  "Test": {
-    "value": false,
-    "key": 0,
-    "properties": {
-      "Range": {
-        "value": 3.0
-      },
-      "Mean": {
-        "value": 70.0
-      },
-      "Deviation": {
-        "value": 30.0
-      },
-      "Only Player": {
-        "value": true
-      },
-      "Invisibles": {
-        "value": false
+        "value": 1150.0
       }
     }
   },
@@ -279,8 +243,8 @@
     "key": 46,
     "properties": {
       "Click delay": {
-        "left": 100.0,
-        "right": 175.0
+        "left": 50.0,
+        "right": 100.0
       },
       "Open delay": {
         "left": 50.0,
@@ -635,7 +599,7 @@
   },
   "Strafe": {
     "value": false,
-    "key": 48,
+    "key": 0,
     "properties": {
       "AutoJump": {
         "value": false
@@ -741,7 +705,7 @@
   },
   "NoFriends": {
     "value": false,
-    "key": 0,
+    "key": 21,
     "properties": {
       "Auto disable": {
         "value": false
@@ -774,7 +738,16 @@
     "key": 45,
     "properties": {
       "Bridge Mode": {
-        "value": "Normal"
+        "value": "Sneaking"
+      },
+      "Sneak Interval": {
+        "value": 1.0
+      },
+      "Distance to edge": {
+        "value": 0.0
+      },
+      "Reduce sneak ticks": {
+        "value": 4.0
       },
       "Edge Mode": {
         "value": "Circular"
@@ -818,6 +791,9 @@
     "value": true,
     "key": 0,
     "properties": {
+      "Show watermark": {
+        "value": true
+      },
       "Chat blur": {
         "value": true
       },
