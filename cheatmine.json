@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "ip": "example.com",
+    "ip": "cheatmine.ru/mineblaze.ru",
     "version": "1.8",
-    "system": "AnticheatX",
-    "date": 1689100784924,
-    "author": "haze",
+    "system": "Intave",
+    "date": 1690492273129,
+    "author": "strannee",
     "description": "An example description"
   },
   "FastHeal": {
@@ -24,10 +24,10 @@
     "key": 0,
     "properties": {
       "Boxy": {
-        "value": false
+        "value": true
       },
       "Box Alpha": {
-        "value": 0.3
+        "value": 0.15000000596046448
       },
       "Projection": {
         "value": false
@@ -39,7 +39,7 @@
   },
   "Breaker": {
     "value": false,
-    "key": 44,
+    "key": 23,
     "properties": {}
   },
   "Reach": {
@@ -47,13 +47,13 @@
     "key": 0,
     "properties": {
       "Reach": {
-        "value": 3.799999952316284
+        "value": 3.3
       }
     }
   },
   "InvManager": {
     "value": true,
-    "key": 36,
+    "key": 35,
     "properties": {
       "Click delay": {
         "left": 0.0,
@@ -61,7 +61,7 @@
       },
       "Open delay": {
         "left": 0.0,
-        "right": 75.0
+        "right": 0.0
       },
       "Sort inventory": {
         "value": true
@@ -73,7 +73,7 @@
         "value": true
       },
       "Remove low amounts": {
-        "value": true
+        "value": false
       }
     }
   },
@@ -85,6 +85,9 @@
         "value": "Legit"
       },
       "Keep sprint": {
+        "value": false
+      },
+      "Cancel packets": {
         "value": false
       }
     }
@@ -103,18 +106,6 @@
       }
     }
   },
-  "STest": {
-    "value": false,
-    "key": 0,
-    "properties": {
-      "Bridge Mode": {
-        "value": "Sneak"
-      },
-      "Sneak Interval": {
-        "value": 1.0
-      }
-    }
-  },
   "MCF": {
     "value": true,
     "key": 0,
@@ -125,7 +116,7 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Gxmstxr"
+        "value": "Hypixel"
       }
     }
   },
@@ -140,13 +131,13 @@
   },
   "TickBase": {
     "value": true,
-    "key": 21,
+    "key": 0,
     "properties": {
       "Mode": {
-        "value": "Future"
+        "value": "Past"
       },
       "Ticks": {
-        "value": 2.0
+        "value": 5.0
       },
       "Delay": {
         "value": 900.0
@@ -155,8 +146,11 @@
         "value": true
       },
       "Random amount": {
-        "left": -5.0,
-        "right": 5.0
+        "left": -15.0,
+        "right": 15.0
+      },
+      "Only aura": {
+        "value": false
       },
       "Only players": {
         "value": true
@@ -208,13 +202,13 @@
   },
   "Pointers": {
     "value": false,
-    "key": 35,
+    "key": 0,
     "properties": {
       "Radius": {
-        "value": 60.0
+        "value": 63.0
       },
       "Simulate 3D": {
-        "value": true
+        "value": false
       },
       "Fill ellipse": {
         "value": false
@@ -242,43 +236,22 @@
       }
     }
   },
-  "Test": {
-    "value": false,
-    "key": 0,
-    "properties": {
-      "Range": {
-        "value": 3.0
-      },
-      "Mean": {
-        "value": 60.0
-      },
-      "Deviation": {
-        "value": 24.0
-      },
-      "Only Player": {
-        "value": true
-      },
-      "Invisibles": {
-        "value": false
-      }
-    }
-  },
   "Teams": {
     "value": true,
     "key": 0,
     "properties": {}
   },
   "Stealer": {
-    "value": false,
-    "key": 47,
+    "value": true,
+    "key": 21,
     "properties": {
       "Click delay": {
-        "left": 50.0,
-        "right": 100.0
+        "left": 0.0,
+        "right": 25.0
       },
       "Open delay": {
-        "left": 100.0,
-        "right": 200.0
+        "left": 25.0,
+        "right": 50.0
       },
       "Pattern mode": {
         "value": "Distance"
@@ -302,7 +275,7 @@
         "value": false
       },
       "Chest switch delay": {
-        "value": 375.0
+        "value": 400.0
       },
       "Ghost hand": {
         "value": false
@@ -329,7 +302,7 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Cock"
+        "value": "Grim"
       }
     }
   },
@@ -340,7 +313,7 @@
   },
   "ClickGUI": {
     "value": false,
-    "key": 56,
+    "key": 54,
     "properties": {}
   },
   "Ambience": {
@@ -351,8 +324,8 @@
         "value": "Noon"
       },
       "Time cyle": {
-        "left": 6000.0,
-        "right": 16000.0
+        "left": 5000.0,
+        "right": 12000.0
       }
     }
   },
@@ -367,7 +340,16 @@
         "value": true
       },
       "Swing speed": {
-        "value": 0.699999988079071
+        "value": 2.0
+      },
+      "X translation": {
+        "value": 0.6500000357627869
+      },
+      "Y translation": {
+        "value": -0.3499999940395355
+      },
+      "Z translation": {
+        "value": -0.75
       }
     }
   },
@@ -385,12 +367,12 @@
     "key": 0,
     "properties": {
       "Mode": {
-        "value": "Vulcan"
+        "value": "Spoof"
       }
     }
   },
   "ClientCapes": {
-    "value": true,
+    "value": false,
     "key": 0,
     "properties": {}
   },
@@ -399,10 +381,10 @@
     "key": 0,
     "properties": {
       "Radius": {
-        "value": 6.0
+        "value": 12.0
       },
       "Multiplier": {
-        "value": 1.2999999523162842
+        "value": 1.899999976158142
       },
       "Texel size": {
         "value": 2.0
@@ -410,17 +392,17 @@
     }
   },
   "NoSlow": {
-    "value": false,
-    "key": 24,
+    "value": true,
+    "key": 22,
     "properties": {
       "Block Mode": {
-        "value": "Basic"
+        "value": "Spoof"
       },
       "Attack multiplier": {
         "value": 0.6000000238418579
       },
       "Block multiplier": {
-        "value": 0.20000000298023224
+        "value": 0.4000000059604645
       },
       "Bow slowdown": {
         "value": true
@@ -432,7 +414,7 @@
         "value": true
       },
       "Consume multiplier": {
-        "value": 1.0
+        "value": 0.20000000298023224
       },
       "Sprint while use": {
         "value": true
@@ -453,7 +435,7 @@
     "key": 0,
     "properties": {
       "Colored": {
-        "value": false
+        "value": true
       }
     }
   },
@@ -485,13 +467,13 @@
         "value": false
       },
       "Auto disable time": {
-        "value": 5500.0
+        "value": 5000.0
       }
     }
   },
   "Aura": {
     "value": false,
-    "key": 19,
+    "key": 48,
     "properties": {
       "Range": {
         "value": 3.0
@@ -531,7 +513,7 @@
         "value": "Switch"
       },
       "Priority Mode": {
-        "value": "None"
+        "value": "Health"
       },
       "FOV angle": {
         "value": 180.0
@@ -540,7 +522,7 @@
         "value": "None"
       },
       "Rotation speed": {
-        "value": 0.699999988079071
+        "value": 0.8500000238418579
       },
       "Target circle": {
         "value": true
@@ -567,22 +549,22 @@
   },
   "Speed": {
     "value": false,
-    "key": 46,
+    "key": 0,
     "properties": {
       "Mode": {
-        "value": "Intave (Low)"
+        "value": "Intave (Adaptive)"
       },
       "Speed": {
-        "value": 1.2000000476837158
+        "value": 0.4000000059604645
       },
       "Ignore liquids": {
-        "value": true
+        "value": false
       }
     }
   },
   "LongJump": {
     "value": false,
-    "key": 48,
+    "key": 0,
     "properties": {}
   },
   "Timer": {
@@ -590,7 +572,7 @@
     "key": 0,
     "properties": {
       "Timer": {
-        "value": 2.0
+        "value": 0.6000000238418579
       },
       "Auto disable": {
         "value": false
@@ -643,20 +625,20 @@
     }
   },
   "ChestESP": {
-    "value": false,
-    "key": 47,
+    "value": true,
+    "key": 0,
     "properties": {
       "Boxy": {
         "value": true
       },
       "Box Alpha": {
-        "value": 0.4000000059604645
+        "value": 0.15000000596046448
       },
       "Projection": {
         "value": false
       },
       "Shader": {
-        "value": false
+        "value": true
       },
       "Rumble Box": {
         "value": false
@@ -734,20 +716,20 @@
     "properties": {}
   },
   "NoFriends": {
-    "value": true,
-    "key": 37,
+    "value": false,
+    "key": 36,
     "properties": {
       "Auto disable": {
-        "value": false
+        "value": true
       }
     }
   },
   "Fly": {
     "value": false,
-    "key": 33,
+    "key": 34,
     "properties": {
       "Mode": {
-        "value": "Motion"
+        "value": "Vanilla"
       },
       "Boosting Ticks": {
         "value": 3.0
@@ -759,16 +741,25 @@
         "value": 1.0
       },
       "Vertical Speed": {
-        "value": 1.0
+        "value": 0.4
       }
     }
   },
   "Scaffold": {
     "value": false,
-    "key": 34,
+    "key": 50,
     "properties": {
       "Bridge Mode": {
         "value": "Normal"
+      },
+      "Sneak Interval": {
+        "value": 4.0
+      },
+      "Distance to edge": {
+        "value": -0.10000000149011612
+      },
+      "Reduce sneak ticks": {
+        "value": 0.0
       },
       "Edge Mode": {
         "value": "Circular"
@@ -777,13 +768,13 @@
         "value": "Golden Ratio"
       },
       "Tower Mode": {
-        "value": "Intave"
+        "value": "None"
       },
       "Sprint": {
-        "value": true
+        "value": false
       },
       "Extra clicks": {
-        "value": true
+        "value": false
       },
       "Same Y": {
         "value": false
@@ -798,7 +789,7 @@
         "value": false
       },
       "No swing": {
-        "value": false
+        "value": true
       },
       "Auto stop": {
         "value": true
@@ -812,6 +803,9 @@
     "value": true,
     "key": 0,
     "properties": {
+      "Show watermark": {
+        "value": true
+      },
       "Chat blur": {
         "value": true
       },
@@ -840,7 +834,7 @@
         "value": true
       },
       "No item frames": {
-        "value": true
+        "value": false
       },
       "Low fire": {
         "value": true
@@ -864,13 +858,13 @@
   },
   "Step": {
     "value": false,
-    "key": 0,
+    "key": 44,
     "properties": {
       "Mode": {
         "value": "Intave (2.0)"
       },
       "Max Height": {
-        "value": 2.0
+        "value": 1.7999999523162842
       }
     }
   },
@@ -885,7 +879,7 @@
         "value": "Mid"
       },
       "Probability": {
-        "value": 0.8999999761581421
+        "value": 1.0
       },
       "Increase Probability": {
         "value": true
@@ -900,11 +894,11 @@
     "key": 0,
     "properties": {
       "Duration": {
-        "left": 130.0,
-        "right": 220.0
+        "left": 150.0,
+        "right": 190.0
       },
       "Range": {
-        "value": 5.5
+        "value": 5.699999809265137
       },
       "Only players": {
         "value": true
