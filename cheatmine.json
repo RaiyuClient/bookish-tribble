@@ -5,7 +5,7 @@
     "system": "Intave",
     "date": 1690492273129,
     "author": "strannee",
-    "description": "An example description"
+    "description": "Intave config without the movement stuff, since its patched now"
   },
   "FastHeal": {
     "value": false,
