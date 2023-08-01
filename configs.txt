@@ -10,6 +10,7 @@ Herobrine
 Hypixel
 HypixelRage
 HypixelSameY
+Karhu
 Minemen
 PikaSW
 Polar
