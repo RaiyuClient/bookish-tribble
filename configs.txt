@@ -9,6 +9,7 @@ Herobrine
 Hylex
 Hypixel
 Karhu
+Mineblaze
 Minemen
 PikaSW
 Polar
