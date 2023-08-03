@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "ip": "hylex.gg",
+    "ip": "example.com",
     "version": "1.8",
-    "system": "Grim",
-    "date": 1690676825359,
-    "author": "KarmaLeaks",
-    "description": "SCAFFOLD = FLY | 5 Blocks in First Slot, other Blocks in Second Slot. Using Scaffold = Fly"
+    "system": "AnticheatX",
+    "date": 1691105238483,
+    "author": "haze",
+    "description": "An example description"
   },
   "FastHeal": {
     "value": false,
@@ -26,20 +26,56 @@
       "Boxy": {
         "value": false
       },
+      "Box color": {
+        "value": -11184641,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
+      },
+      "Boxy hurt color": {
+        "value": -1179648,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
+      },
       "Box Alpha": {
         "value": 0.6000000238418579
       },
-      "Projection": {
-        "value": false
+      "Bounds": {
+        "value": true
+      },
+      "Bounds color": {
+        "value": -15814401,
+        "percentX": 0.9456522,
+        "percentY": 0.0,
+        "colorX": 0.0
+      },
+      "Bounds hurt color": {
+        "value": -1179648,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       },
       "Shader": {
         "value": true
+      },
+      "Shader color": {
+        "value": -16777216,
+        "percentX": 0.0,
+        "percentY": 1.0,
+        "colorX": 0.0
+      },
+      "Shader hurt color": {
+        "value": -1,
+        "percentX": 0.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       }
     }
   },
   "Breaker": {
-    "value": false,
-    "key": 0,
+    "value": true,
+    "key": 44,
     "properties": {}
   },
   "Reach": {
@@ -53,7 +89,7 @@
   },
   "InvManager": {
     "value": false,
-    "key": 38,
+    "key": 36,
     "properties": {
       "Click delay": {
         "left": 100.0,
@@ -131,7 +167,7 @@
   },
   "TickBase": {
     "value": true,
-    "key": 0,
+    "key": 21,
     "properties": {
       "Mode": {
         "value": "Past"
@@ -202,7 +238,7 @@
   },
   "Pointers": {
     "value": true,
-    "key": 0,
+    "key": 35,
     "properties": {
       "Radius": {
         "value": 79.0
@@ -215,6 +251,12 @@
       },
       "Color by distance": {
         "value": true
+      },
+      "Pointer color": {
+        "value": -11184641,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       },
       "Show boxes": {
         "value": false
@@ -243,7 +285,7 @@
   },
   "Stealer": {
     "value": false,
-    "key": 44,
+    "key": 47,
     "properties": {
       "Click delay": {
         "left": 150.0,
@@ -308,12 +350,12 @@
   },
   "PolarFun": {
     "value": false,
-    "key": 36,
+    "key": 0,
     "properties": {}
   },
   "ClickGUI": {
     "value": false,
-    "key": 54,
+    "key": 56,
     "properties": {}
   },
   "Ambience": {
@@ -364,7 +406,7 @@
   },
   "NoFall": {
     "value": false,
-    "key": 49,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Vulcan"
@@ -393,7 +435,7 @@
   },
   "NoSlow": {
     "value": true,
-    "key": 0,
+    "key": 24,
     "properties": {
       "Block Mode": {
         "value": "Spoof"
@@ -434,8 +476,11 @@
     "value": true,
     "key": 0,
     "properties": {
-      "Colored": {
-        "value": false
+      "Color": {
+        "value": -16716033,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       }
     }
   },
@@ -455,7 +500,7 @@
   },
   "Blink": {
     "value": false,
-    "key": 35,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Intave"
@@ -527,6 +572,9 @@
       "Target circle": {
         "value": true
       },
+      "Target info": {
+        "value": true
+      },
       "Auto disable": {
         "value": true
       },
@@ -549,10 +597,10 @@
   },
   "Speed": {
     "value": false,
-    "key": 21,
+    "key": 46,
     "properties": {
       "Mode": {
-        "value": "Intave (Low)"
+        "value": "Jump"
       },
       "Speed": {
         "value": 0.5
@@ -564,7 +612,7 @@
   },
   "LongJump": {
     "value": false,
-    "key": 47,
+    "key": 48,
     "properties": {}
   },
   "Timer": {
@@ -624,24 +672,69 @@
       }
     }
   },
-  "ChestESP": {
+  "NBacktrack": {
     "value": false,
     "key": 0,
     "properties": {
+      "Duration": {
+        "value": 10.0
+      },
+      "Delay": {
+        "value": 0.0
+      },
+      "Only Players": {
+        "value": true
+      },
+      "Visual Mode": {
+        "value": "Box"
+      },
+      "Box Color": {
+        "value": -13750738,
+        "percentX": 0.0,
+        "percentY": 0.8214286,
+        "colorX": 0.0
+      },
+      "Box Alpha": {
+        "value": 0.20000000298023224
+      }
+    }
+  },
+  "ChestESP": {
+    "value": false,
+    "key": 47,
+    "properties": {
+      "Rumble Box": {
+        "value": false
+      },
       "Boxy": {
         "value": false
+      },
+      "Box color": {
+        "value": -14474716,
+        "percentX": 0.06521739,
+        "percentY": 0.85714287,
+        "colorX": 0.0
       },
       "Box Alpha": {
         "value": 0.20000000298023224
       },
-      "Projection": {
+      "Bounds": {
         "value": false
+      },
+      "Bounds color": {
+        "value": -11184641,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       },
       "Shader": {
         "value": true
       },
-      "Rumble Box": {
-        "value": false
+      "Shader color": {
+        "value": -16720129,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       }
     }
   },
@@ -669,9 +762,6 @@
       },
       "Show IRC Name": {
         "value": true
-      },
-      "Debug": {
-        "value": false
       }
     }
   },
@@ -717,7 +807,7 @@
   },
   "NoFriends": {
     "value": false,
-    "key": 0,
+    "key": 37,
     "properties": {
       "Auto disable": {
         "value": false
@@ -726,10 +816,10 @@
   },
   "Fly": {
     "value": false,
-    "key": 34,
+    "key": 33,
     "properties": {
       "Mode": {
-        "value": "Collision"
+        "value": "Grim (Flag)"
       },
       "Boosting Ticks": {
         "value": 3.0
@@ -747,7 +837,7 @@
   },
   "Scaffold": {
     "value": false,
-    "key": 33,
+    "key": 34,
     "properties": {
       "Bridge Mode": {
         "value": "Normal"
@@ -814,6 +904,9 @@
       },
       "Custom hotbar": {
         "value": true
+      },
+      "Target info blur": {
+        "value": false
       }
     }
   },
