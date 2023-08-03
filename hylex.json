@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "ip": "example.com",
+    "ip": "hylex.gg",
     "version": "1.8",
-    "system": "AnticheatX",
+    "system": "Grim (Good Config)",
     "date": 1691105238483,
     "author": "haze",
-    "description": "An example description"
+    "description": "Flag Fly = Use TNT to fly | SCAFFOLD BLOCK FLY: 5 Blocks in one Slot and other Blocks in anohter Slot. USE SCAFFOLDWALK TO FLY! IF you have GOOD Ping, turn on NBacktrack!"
   },
   "FastHeal": {
     "value": false,
