@@ -8,7 +8,6 @@ GommeRage
 Herobrine
 Hylex
 Hypixel
-HypixelRage
 HypixelSameY
 Karhu
 Minemen
