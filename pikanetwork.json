@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "ip": "example.com",
+    "ip": "play.pika-network.net",
     "version": "1.8",
-    "system": "AnticheatX",
+    "system": "Polar.top",
     "date": 1691107206735,
     "author": "haze",
-    "description": "An example description"
+    "description": "AutoBlock, Backtrack etc. Made for Skywars on Pika."
   },
   "FastHeal": {
     "value": false,
