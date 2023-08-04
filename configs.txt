@@ -15,6 +15,6 @@ PikaNetwork
 Polar
 Rinaorc
 Twerion
-VimeMC-SW
+VimeMCSW
 Vulcan
 ZoneCraft
