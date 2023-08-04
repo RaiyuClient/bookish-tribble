@@ -11,9 +11,10 @@ Hypixel
 Karhu
 Mineblaze
 Minemen
-Pikanetwork
+PikaNetwork
 Polar
 Rinaorc
 Twerion
-VimeMCSW
+VimeMC-SW
 Vulcan
+ZoneCraft
