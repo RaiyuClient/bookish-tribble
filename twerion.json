@@ -2,10 +2,10 @@
   "metadata": {
     "ip": "twerion.net",
     "version": "1.8",
-    "system": "Grim/?",
-    "date": 1686942891002,
-    "author": "BroIsDamage & Patrick",
-    "description": "Server with fun BuildFFA"
+    "system": "Grim (Actually good config)",
+    "date": 1691107851784,
+    "author": "haze",
+    "description": "Inase Backtrack, No AutoBlock, But Sprint Scaffold etc."
   },
   "FastHeal": {
     "value": false,
@@ -26,20 +26,56 @@
       "Boxy": {
         "value": false
       },
+      "Box color": {
+        "value": -11184641,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
+      },
+      "Boxy hurt color": {
+        "value": -1179648,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
+      },
       "Box Alpha": {
         "value": 0.3
       },
-      "Projection": {
-        "value": false
+      "Bounds": {
+        "value": true
+      },
+      "Bounds color": {
+        "value": -15814401,
+        "percentX": 0.9456522,
+        "percentY": 0.0,
+        "colorX": 0.0
+      },
+      "Bounds hurt color": {
+        "value": -1179648,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       },
       "Shader": {
         "value": true
+      },
+      "Shader color": {
+        "value": -16777216,
+        "percentX": 0.0,
+        "percentY": 1.0,
+        "colorX": 0.0
+      },
+      "Shader hurt color": {
+        "value": -1,
+        "percentX": 0.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       }
     }
   },
   "Breaker": {
     "value": false,
-    "key": 38,
+    "key": 44,
     "properties": {}
   },
   "Reach": {
@@ -53,7 +89,7 @@
   },
   "InvManager": {
     "value": true,
-    "key": 50,
+    "key": 36,
     "properties": {
       "Click delay": {
         "left": 0.0,
@@ -71,14 +107,23 @@
       },
       "Blocks in hotbar": {
         "value": true
+      },
+      "Remove low amounts": {
+        "value": true
       }
     }
   },
   "Sprint": {
     "value": true,
-    "key": 37,
+    "key": 0,
     "properties": {
+      "Mode": {
+        "value": "Legit"
+      },
       "Keep sprint": {
+        "value": false
+      },
+      "Cancel packets": {
         "value": false
       }
     }
@@ -88,15 +133,12 @@
     "key": 0,
     "properties": {}
   },
-  "STest": {
+  "ResourcePackFix": {
     "value": false,
     "key": 0,
     "properties": {
-      "Bridge Mode": {
-        "value": "Sneak"
-      },
-      "Sneak Interval": {
-        "value": 1.0
+      "Mode": {
+        "value": "Block launcher"
       }
     }
   },
@@ -124,8 +166,8 @@
     }
   },
   "TickBase": {
-    "value": true,
-    "key": 0,
+    "value": false,
+    "key": 21,
     "properties": {
       "Mode": {
         "value": "Past"
@@ -142,6 +184,9 @@
       "Random amount": {
         "left": -15.0,
         "right": 15.0
+      },
+      "Only aura": {
+        "value": true
       },
       "Only players": {
         "value": true
@@ -174,6 +219,18 @@
       }
     }
   },
+  "AntiTNT": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Show radius": {
+        "value": true
+      },
+      "Show time": {
+        "value": true
+      }
+    }
+  },
   "StreamerMode": {
     "value": false,
     "key": 0,
@@ -181,7 +238,7 @@
   },
   "Pointers": {
     "value": false,
-    "key": 0,
+    "key": 35,
     "properties": {
       "Radius": {
         "value": 50.0
@@ -194,6 +251,12 @@
       },
       "Color by distance": {
         "value": true
+      },
+      "Pointer color": {
+        "value": -11184641,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       },
       "Show boxes": {
         "value": false
@@ -215,27 +278,6 @@
       }
     }
   },
-  "Test": {
-    "value": false,
-    "key": 0,
-    "properties": {
-      "Range": {
-        "value": 3.0
-      },
-      "Mean": {
-        "value": 70.0
-      },
-      "Deviation": {
-        "value": 30.0
-      },
-      "Only Player": {
-        "value": true
-      },
-      "Invisibles": {
-        "value": false
-      }
-    }
-  },
   "Teams": {
     "value": false,
     "key": 0,
@@ -243,7 +285,7 @@
   },
   "Stealer": {
     "value": false,
-    "key": 46,
+    "key": 47,
     "properties": {
       "Click delay": {
         "left": 0.0,
@@ -291,7 +333,11 @@
   "ModuleList": {
     "value": true,
     "key": 0,
-    "properties": {}
+    "properties": {
+      "Blur": {
+        "value": true
+      }
+    }
   },
   "Disabler": {
     "value": false,
@@ -302,9 +348,14 @@
       }
     }
   },
+  "PolarFun": {
+    "value": false,
+    "key": 0,
+    "properties": {}
+  },
   "ClickGUI": {
     "value": false,
-    "key": 54,
+    "key": 56,
     "properties": {}
   },
   "Ambience": {
@@ -332,6 +383,15 @@
       },
       "Swing speed": {
         "value": 0.800000011920929
+      },
+      "X translation": {
+        "value": 0.0
+      },
+      "Y translation": {
+        "value": 0.0
+      },
+      "Z translation": {
+        "value": 0.0
       }
     }
   },
@@ -346,7 +406,7 @@
   },
   "NoFall": {
     "value": false,
-    "key": 49,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "NoGround"
@@ -375,7 +435,7 @@
   },
   "NoSlow": {
     "value": true,
-    "key": 0,
+    "key": 24,
     "properties": {
       "Block Mode": {
         "value": "Basic"
@@ -416,8 +476,11 @@
     "value": true,
     "key": 0,
     "properties": {
-      "Colored": {
-        "value": true
+      "Color": {
+        "value": -16716033,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       }
     }
   },
@@ -435,17 +498,21 @@
       }
     }
   },
-  "Privacy": {
-    "value": false,
-    "key": 0,
-    "properties": {}
-  },
   "Blink": {
     "value": false,
-    "key": 47,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Intave"
+      },
+      "Auto disable on hit": {
+        "value": true
+      },
+      "Auto disable": {
+        "value": false
+      },
+      "Auto disable time": {
+        "value": 5000.0
       }
     }
   },
@@ -505,6 +572,9 @@
       "Target circle": {
         "value": false
       },
+      "Target info": {
+        "value": true
+      },
       "Auto disable": {
         "value": true
       },
@@ -527,7 +597,7 @@
   },
   "Speed": {
     "value": false,
-    "key": 48,
+    "key": 46,
     "properties": {
       "Mode": {
         "value": "Jump"
@@ -542,8 +612,23 @@
   },
   "LongJump": {
     "value": false,
-    "key": 35,
+    "key": 48,
     "properties": {}
+  },
+  "Timer": {
+    "value": false,
+    "key": 0,
+    "properties": {
+      "Timer": {
+        "value": 1.0
+      },
+      "Auto disable": {
+        "value": false
+      },
+      "Auto disable time": {
+        "value": 5000.0
+      }
+    }
   },
   "PingSpoof": {
     "value": false,
@@ -587,24 +672,69 @@
       }
     }
   },
+  "NBacktrack": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Duration": {
+        "value": 10.0
+      },
+      "Delay": {
+        "value": 0.0
+      },
+      "Only Players": {
+        "value": true
+      },
+      "Visual Mode": {
+        "value": "Box"
+      },
+      "Box Color": {
+        "value": -13750738,
+        "percentX": 0.0,
+        "percentY": 0.8214286,
+        "colorX": 0.0
+      },
+      "Box Alpha": {
+        "value": 0.699999988079071
+      }
+    }
+  },
   "ChestESP": {
     "value": false,
-    "key": 46,
+    "key": 47,
     "properties": {
+      "Rumble Box": {
+        "value": false
+      },
       "Boxy": {
         "value": false
+      },
+      "Box color": {
+        "value": -14474716,
+        "percentX": 0.06521739,
+        "percentY": 0.85714287,
+        "colorX": 0.0
       },
       "Box Alpha": {
         "value": 0.3
       },
-      "Projection": {
+      "Bounds": {
         "value": false
+      },
+      "Bounds color": {
+        "value": -11184641,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       },
       "Shader": {
         "value": true
       },
-      "Rumble Box": {
-        "value": false
+      "Shader color": {
+        "value": -16720129,
+        "percentX": 1.0,
+        "percentY": 0.0,
+        "colorX": 0.0
       }
     }
   },
@@ -632,9 +762,6 @@
       },
       "Show IRC Name": {
         "value": true
-      },
-      "Debug": {
-        "value": false
       }
     }
   },
@@ -680,7 +807,7 @@
   },
   "NoFriends": {
     "value": false,
-    "key": 21,
+    "key": 37,
     "properties": {
       "Auto disable": {
         "value": false
@@ -710,10 +837,19 @@
   },
   "Scaffold": {
     "value": false,
-    "key": 45,
+    "key": 34,
     "properties": {
       "Bridge Mode": {
         "value": "Normal"
+      },
+      "Sneak Interval": {
+        "value": 4.0
+      },
+      "Distance to edge": {
+        "value": 0.1
+      },
+      "Reduce sneak ticks": {
+        "value": 0.0
       },
       "Edge Mode": {
         "value": "Air"
@@ -750,6 +886,27 @@
       },
       "Auto disable": {
         "value": true
+      }
+    }
+  },
+  "HUD": {
+    "value": true,
+    "key": 0,
+    "properties": {
+      "Show watermark": {
+        "value": true
+      },
+      "Chat blur": {
+        "value": true
+      },
+      "Scoreboard blur": {
+        "value": true
+      },
+      "Custom hotbar": {
+        "value": true
+      },
+      "Target info blur": {
+        "value": false
       }
     }
   },
@@ -794,7 +951,7 @@
   },
   "Step": {
     "value": false,
-    "key": 44,
+    "key": 0,
     "properties": {
       "Mode": {
         "value": "Intave (1.5)"
