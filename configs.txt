@@ -15,6 +15,5 @@ Pikanetwork
 Polar
 Rinaorc
 Twerion
-VimeMCBW
 VimeMCSW
 Vulcan
