@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "ip": "example.com",
+    "ip": "mc.hycraft.us,
     "version": "1.8",
-    "system": "AnticheatX",
+    "system": "Polar",
     "date": 1691452620599,
     "author": "haze",
-    "description": "An example description"
+    "description": "Full AutoBlock, HighJump, Tower, Good Backtrack etc."
   },
   "FastHeal": {
     "value": false,
